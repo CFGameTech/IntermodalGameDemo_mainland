@@ -6,9 +6,9 @@
 //
 
 #import "ViewController.h"
-#import <CFGameSDK/CFGameSDK.h>
+#import "CFGameSDK/CFGameSDK.h"
 
-@interface ViewController () <CFGameSDKDelegate,CFGameSDKRTCDelegate,CFGameSDKLoginDelegate,CFGameLifeCycleDelegate>
+@interface ViewController () <CFGameSDKDelegate,CFGameSDKRTCDelegate,CFGameLifeCycleDelegate>
 @property (weak, nonatomic) IBOutlet UITextField *languageTF;
 @property (weak, nonatomic) IBOutlet UITextField *channelTF;
 @property (weak, nonatomic) IBOutlet UITextField *userIDTF;
@@ -43,21 +43,6 @@
     
 }
 
-- (IBAction)loginAction:(id)sender {
-    [self.view endEditing:YES];
-        
-    if (self.userIDTF.text.length == 0){
-        
-        UIAlertController *alertVc = [UIAlertController alertControllerWithTitle:@"提示" message:@"用户id为必填项" preferredStyle:(UIAlertControllerStyleAlert)];
-        UIAlertAction *okAction = [UIAlertAction actionWithTitle:@"确定" style:UIAlertActionStyleDefault handler:^(UIAlertAction * _Nonnull action) {
-           }];
-        [alertVc addAction:okAction];
-        [self presentViewController:alertVc animated:TRUE completion:nil];
-        return;
-    }
-    [CFGameSDK setUserInfo:self.userIDTF.text code:@"" loginCallBack:self];
-    
-}
 
 - (IBAction)initAction:(id)sender {
     if (self.channelTF.text.length == 0){
@@ -82,13 +67,28 @@
  
     [self.view endEditing:YES];
 
+    CFGameInitSDKModel *initModel = [[CFGameInitSDKModel alloc] init];
+    initModel.app = UIApplication.sharedApplication;
+    initModel.appId = [self.channelTF.text intValue];
+    initModel.appKey = @"4c2958117d1ae41831812bf6805c";
+    initModel.area = @"cn";
+    initModel.language = @"zh_CN";
+    initModel.isGameSoundPlay = YES;
+    initModel.isProduct = YES;
     
-    [CFGameSDK setUpSDKWithApplication:UIApplication.sharedApplication appId:self.channelTF.text language:_languageTF.text area:@"cn" isProduct:YES];
+    [CFGameSDK setUpSDKWithModel:initModel onSuccess:^{
+            
+        NSLog(@"CFGameSDK init success");
+        
+        [CFGameSDK setBizCallback:self];
+        
+        [CFGameSDK setCFGameLifecycleCallback:self];
+        [CFGameSDK setRTCCallback:self];
+    } onFailure:^(int code, NSString * _Nonnull msg) {
+        NSLog(@"CFGameSDK init failure, code:%d msg:%@",code,msg);
+    }];
     
-    [CFGameSDK setBizCallback:self];
-    
-    [CFGameSDK setCFGameLifecycleCallback:self];
-    [CFGameSDK setRTCCallback:self];
+
     
 }
 
@@ -119,7 +119,11 @@
         
         return;
     }
-    [CFGameSDK showGameList];
+    [CFGameSDK showGameListDialog:self userId:self.userIDTF.text userCode:@"" onSuccess:^{
+        NSLog(@"showGameListDialog init success");
+    } onFailure:^(int code, NSString * _Nonnull msg) {
+        NSLog(@"showGameListDialog  failure, code:%d msg:%@",code,msg);
+    }];
 }
 
 - (IBAction)envAction:(id)sender {
@@ -173,38 +177,33 @@
     [CFGameSDK finishGameWindow];
 }
 
-/**
- *
- * 用户登录成功回调
- */
-- (void)onLoginSuccess{
-    
-    NSLog(@"CFGameSDKLoginCallBack login success");
+- (NSString * _Nullable)onGetGameConfig:(NSString * _Nullable)dataJson { 
+    return @"";
 }
 
-/**
- *
- * 用户登录失败回调
- */
-- (void)onLoginFailCode:(int)code message:(NSString *)msg{
+
+- (void)onPreLoadGameSuccess:(NSInteger)gid gameState:(GameState)state { 
     
+}
+
+
+- (void)openPlatformPage:(NSString * _Nonnull)path data:(NSString * _Nullable)data { 
     
-    NSLog(@"CFGameSDKLoginCallBack login fail code = %d msg = %@",code,msg);
 }
-/**
- *
- * token 更新后回调，接入方通常无需关注此接口
- */
-- (void)onRefreshToken:(NSString *)token{
-    NSLog(@"CFGameSDKLoginCallBack onRefreshToken success");
+
+
+- (void)reportStatsEvent:(NSString * _Nullable)event Code:(long)code Msg:(NSString * _Nullable)msg { 
+    
 }
+
+
 /**
  *
  * 游戏加载失败
  */
 - (void)onGameLoadFail{
     NSLog(@"CFViewController callback onGameLoadFail ");
-
+    
 }
 
 
@@ -212,8 +211,8 @@
  *
  * 用户自动上麦加入游戏
  */
-- (BOOL)onPreJoinGame:(NSString *)uid seatIndex:(int)seatIndex{
-    NSLog(@"CFViewController callback  onPreJoinGame uid = %@ , seatIndex = %d",uid,seatIndex);
+- (BOOL)onPreJoinGame:(NSString *)uid seatIndex:(NSInteger)seatIndex{
+    NSLog(@"CFViewController callback  onPreJoinGame uid = %@ , seatIndex = %ld",uid,seatIndex);
     return YES;
 }
 
@@ -224,7 +223,7 @@
  */
 - (void)onGamePrepare:(NSString *)uid{
     NSLog(@"CFViewController callback uid = %@, gamePrepare ",uid);
-
+    
 }
 
 /**
@@ -233,7 +232,7 @@
  */
 - (void)onCancelPrepare:(NSString *)uid{
     NSLog(@"CFViewController callback uid = %@, CancelPrepare ",uid);
-
+    
 }
 
 
@@ -250,6 +249,56 @@
     
 }
 
+- (BOOL)onCanStartGame:(NSString * _Nonnull)uid { 
+    return YES;
+}
+
+
+- (int)onGameEffectSoundStartPlay:(int)soundId soundUrl:(NSString * _Nonnull)soundUrl isLoop:(BOOL)isLoop { 
+    return 1;
+}
+
+
+- (int)onGameEffectSoundStopPlay:(int)effectId { 
+    return 1;
+}
+
+
+- (int)onGameMusicStartPlay:(int)musicId musicUrl:(NSString * _Nonnull)musicUrl isLoop:(BOOL)isLoop { 
+    return 1;
+}
+
+
+- (int)onGameMusicStopPlay:(int)musicId { 
+    return 1;
+}
+
+
+- (void)onGamePurchaseResult:(int)code OrderId:(NSString * _Nonnull)orderId { 
+    
+}
+
+
+- (void)onGameScreenShotBaseData:(NSString * _Nullable)base64String dataJson:(NSString * _Nullable)dataJson { 
+    
+}
+
+
+- (void)onGameStateChangeState:(NSString * _Nonnull)state dataJson:(NSString * _Nullable)dataJson { 
+    
+}
+
+
+- (void)onPlayerStateChangeState:(NSString * _Nonnull)uid state:(NSString * _Nonnull)state dataJson:(NSString * _Nullable)dataJson { 
+    
+}
+
+
+- (void)onSeatAvatarTouch:(NSString * _Nonnull)uid seatIndex:(NSInteger)index { 
+    
+}
+
+
 
 
 - (BOOL)onCFGamePushSelfRTC:(BOOL)push{
@@ -259,8 +308,6 @@
 - (BOOL)onCFGamePullOtherRTC:(NSString *)uid pull:(BOOL)pull{
     return YES;
 }
-
-
 
 
 

@@ -14,9 +14,8 @@
 		3661544B2C10670000B39751 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 3661544A2C10670000B39751 /* Assets.xcassets */; };
 		3661544E2C10670000B39751 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 3661544C2C10670000B39751 /* LaunchScreen.storyboard */; };
 		366154512C10670000B39751 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 366154502C10670000B39751 /* main.m */; };
-		645C566A2D5F450F008B8357 /* CFGameSDK.bundle in Resources */ = {isa = PBXBuildFile; fileRef = 645C56672D5F450F008B8357 /* CFGameSDK.bundle */; };
-		64D20BB92D93E35B0089353A /* CFGameSDK.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 645C56682D5F450F008B8357 /* CFGameSDK.framework */; };
-		64D20BBA2D93E35B0089353A /* CFGameSDK.framework in Embed Frameworks */ = {isa = PBXBuildFile; fileRef = 645C56682D5F450F008B8357 /* CFGameSDK.framework */; settings = {ATTRIBUTES = (CodeSignOnCopy, RemoveHeadersOnCopy, ); }; };
+		6428650630983CBE00B8B72B /* CFGameSDK.xcframework in Frameworks */ = {isa = PBXBuildFile; fileRef = 6428650330983CB900B8B72B /* CFGameSDK.xcframework */; };
+		6428650730983CBE00B8B72B /* CFGameSDK.xcframework in Embed Frameworks */ = {isa = PBXBuildFile; fileRef = 6428650330983CB900B8B72B /* CFGameSDK.xcframework */; settings = {ATTRIBUTES = (CodeSignOnCopy, RemoveHeadersOnCopy, ); }; };
 		AF6F64F90528DB1B33DC82DB /* Pods_CFGameSDK_Demo.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = D64399040D41FC8F12864B01 /* Pods_CFGameSDK_Demo.framework */; };
 /* End PBXBuildFile section */
 
@@ -27,7 +26,7 @@
 			dstPath = "";
 			dstSubfolderSpec = 10;
 			files = (
-				64D20BBA2D93E35B0089353A /* CFGameSDK.framework in Embed Frameworks */,
+				6428650730983CBE00B8B72B /* CFGameSDK.xcframework in Embed Frameworks */,
 			);
 			name = "Embed Frameworks";
 			runOnlyForDeploymentPostprocessing = 0;
@@ -48,8 +47,7 @@
 		3661544F2C10670000B39751 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		366154502C10670000B39751 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
 		41254E2BD683402E3D975C4F /* Pods-CFGameSDK_Demo.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-CFGameSDK_Demo.release.xcconfig"; path = "Target Support Files/Pods-CFGameSDK_Demo/Pods-CFGameSDK_Demo.release.xcconfig"; sourceTree = "<group>"; };
-		645C56672D5F450F008B8357 /* CFGameSDK.bundle */ = {isa = PBXFileReference; lastKnownFileType = "wrapper.plug-in"; path = CFGameSDK.bundle; sourceTree = "<group>"; };
-		645C56682D5F450F008B8357 /* CFGameSDK.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; path = CFGameSDK.framework; sourceTree = "<group>"; };
+		6428650330983CB900B8B72B /* CFGameSDK.xcframework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcframework; path = CFGameSDK.xcframework; sourceTree = "<group>"; };
 		645EA1682D3923EC00FD90C0 /* libiconv.tbd */ = {isa = PBXFileReference; lastKnownFileType = "sourcecode.text-based-dylib-definition"; name = libiconv.tbd; path = usr/lib/libiconv.tbd; sourceTree = SDKROOT; };
 		B1EA32F470367D58A45B9DDD /* Pods-CFGameSDK_Demo.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-CFGameSDK_Demo.debug.xcconfig"; path = "Target Support Files/Pods-CFGameSDK_Demo/Pods-CFGameSDK_Demo.debug.xcconfig"; sourceTree = "<group>"; };
 		B7AB1E4E2C106AE0006B456F /* CFGameSDK.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CFGameSDK.framework; path = CFGameSDK_Demo/CFGameSDK.framework; sourceTree = "<group>"; };
@@ -62,7 +60,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				AF6F64F90528DB1B33DC82DB /* Pods_CFGameSDK_Demo.framework in Frameworks */,
-				64D20BB92D93E35B0089353A /* CFGameSDK.framework in Frameworks */,
+				6428650630983CBE00B8B72B /* CFGameSDK.xcframework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -90,7 +88,7 @@
 		3661543D2C1066FF00B39751 /* CFGameSDK_Demo */ = {
 			isa = PBXGroup;
 			children = (
-				645C56692D5F450F008B8357 /* SDK */,
+				6428650430983CB900B8B72B /* SDK */,
 				3661543E2C1066FF00B39751 /* AppDelegate.h */,
 				3661543F2C1066FF00B39751 /* AppDelegate.m */,
 				366154412C1066FF00B39751 /* SceneDelegate.h */,
@@ -106,11 +104,10 @@
 			path = CFGameSDK_Demo;
 			sourceTree = "<group>";
 		};
-		645C56692D5F450F008B8357 /* SDK */ = {
+		6428650430983CB900B8B72B /* SDK */ = {
 			isa = PBXGroup;
 			children = (
-				645C56672D5F450F008B8357 /* CFGameSDK.bundle */,
-				645C56682D5F450F008B8357 /* CFGameSDK.framework */,
+				6428650330983CB900B8B72B /* CFGameSDK.xcframework */,
 			);
 			path = SDK;
 			sourceTree = "<group>";
@@ -145,7 +142,6 @@
 				366154372C1066FF00B39751 /* Sources */,
 				366154382C1066FF00B39751 /* Frameworks */,
 				366154392C1066FF00B39751 /* Resources */,
-				55A5808322FB2773045C274F /* [CP] Embed Pods Frameworks */,
 				3631D9A62C10815900A2F31B /* Embed Frameworks */,
 			);
 			buildRules = (
@@ -195,7 +191,6 @@
 			buildActionMask = 2147483647;
 			files = (
 				3661544E2C10670000B39751 /* LaunchScreen.storyboard in Resources */,
-				645C566A2D5F450F008B8357 /* CFGameSDK.bundle in Resources */,
 				3661544B2C10670000B39751 /* Assets.xcassets in Resources */,
 				366154492C1066FF00B39751 /* Main.storyboard in Resources */,
 			);
@@ -224,23 +219,6 @@
 			runOnlyForDeploymentPostprocessing = 0;
 			shellPath = /bin/sh;
 			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
-			showEnvVarsInLog = 0;
-		};
-		55A5808322FB2773045C274F /* [CP] Embed Pods Frameworks */ = {
-			isa = PBXShellScriptBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-			);
-			inputFileListPaths = (
-				"${PODS_ROOT}/Target Support Files/Pods-CFGameSDK_Demo/Pods-CFGameSDK_Demo-frameworks-${CONFIGURATION}-input-files.xcfilelist",
-			);
-			name = "[CP] Embed Pods Frameworks";
-			outputFileListPaths = (
-				"${PODS_ROOT}/Target Support Files/Pods-CFGameSDK_Demo/Pods-CFGameSDK_Demo-frameworks-${CONFIGURATION}-output-files.xcfilelist",
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-			shellPath = /bin/sh;
-			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-CFGameSDK_Demo/Pods-CFGameSDK_Demo-frameworks.sh\"\n";
 			showEnvVarsInLog = 0;
 		};
 /* End PBXShellScriptBuildPhase section */
@@ -420,7 +398,7 @@
 				INFOPLIST_KEY_UIMainStoryboardFile = Main;
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
-				IPHONEOS_DEPLOYMENT_TARGET = 13.0;
+				IPHONEOS_DEPLOYMENT_TARGET = 15.0;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
@@ -428,23 +406,6 @@
 				MARKETING_VERSION = 1.0;
 				OTHER_LDFLAGS = (
 					"$(inherited)",
-					"-l\"z\"",
-					"-framework",
-					"\"AFNetworking\"",
-					"-framework",
-					"\"CoreFoundation\"",
-					"-framework",
-					"\"Foundation\"",
-					"-framework",
-					"\"ImageIO\"",
-					"-framework",
-					"\"Masonry\"",
-					"-framework",
-					"\"SDWebImage\"",
-					"-framework",
-					"\"UIKit\"",
-					"-framework",
-					"\"YYModel\"",
 					"-ObjC",
 				);
 				PRODUCT_BUNDLE_IDENTIFIER = com.XLLUK.SDKApp;
@@ -484,7 +445,7 @@
 				INFOPLIST_KEY_UIMainStoryboardFile = Main;
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
-				IPHONEOS_DEPLOYMENT_TARGET = 13.0;
+				IPHONEOS_DEPLOYMENT_TARGET = 15.0;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
@@ -492,23 +453,6 @@
 				MARKETING_VERSION = 1.0;
 				OTHER_LDFLAGS = (
 					"$(inherited)",
-					"-l\"z\"",
-					"-framework",
-					"\"AFNetworking\"",
-					"-framework",
-					"\"CoreFoundation\"",
-					"-framework",
-					"\"Foundation\"",
-					"-framework",
-					"\"ImageIO\"",
-					"-framework",
-					"\"Masonry\"",
-					"-framework",
-					"\"SDWebImage\"",
-					"-framework",
-					"\"UIKit\"",
-					"-framework",
-					"\"YYModel\"",
 					"-ObjC",
 				);
 				PRODUCT_BUNDLE_IDENTIFIER = com.XLLUK.SDKApp;
