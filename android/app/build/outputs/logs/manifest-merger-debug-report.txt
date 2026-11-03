@@ -1,0 +1,208 @@
+-- Merging decision tree log ---
+manifest
+ADDED from /Users/yq_mac/github/mainland/IntermodalGameDemo_mainland/android/app/src/main/AndroidManifest.xml:2:1-28:12
+INJECTED from /Users/yq_mac/github/mainland/IntermodalGameDemo_mainland/android/app/src/main/AndroidManifest.xml:2:1-28:12
+INJECTED from /Users/yq_mac/github/mainland/IntermodalGameDemo_mainland/android/app/src/main/AndroidManifest.xml:2:1-28:12
+INJECTED from /Users/yq_mac/github/mainland/IntermodalGameDemo_mainland/android/app/src/main/AndroidManifest.xml:2:1-28:12
+MERGED from [cfg_lib_v2.0.0.1.aar] /Users/yq_mac/.gradle/caches/transforms-3/dd0bd14ac4894f4cce16da98e2a6e297/transformed/cfg_lib_v2.0.0.1/AndroidManifest.xml:2:1-19:12
+MERGED from [com.google.android.material:material:1.4.0] /Users/yq_mac/.gradle/caches/transforms-3/a2e5f01514509273e9b8bc0d3a8fd54c/transformed/material-1.4.0/AndroidManifest.xml:17:1-24:12
+MERGED from [androidx.constraintlayout:constraintlayout:2.0.4] /Users/yq_mac/.gradle/caches/transforms-3/6f7c22aa26e6bfa64a16195ef51e88d3/transformed/constraintlayout-2.0.4/AndroidManifest.xml:2:1-11:12
+MERGED from [androidx.appcompat:appcompat:1.3.0] /Users/yq_mac/.gradle/caches/transforms-3/7748048852509bc92c33f8776472b29b/transformed/appcompat-1.3.0/AndroidManifest.xml:17:1-24:12
+MERGED from [androidx.viewpager2:viewpager2:1.0.0] /Users/yq_mac/.gradle/caches/transforms-3/49ac023b81931e8abb19d419e4863b7b/transformed/viewpager2-1.0.0/AndroidManifest.xml:17:1-24:12
+MERGED from [androidx.fragment:fragment:1.3.4] /Users/yq_mac/.gradle/caches/transforms-3/128907d4adc4ea5e9b40bb61e12c3451/transformed/fragment-1.3.4/AndroidManifest.xml:17:1-24:12
+MERGED from [androidx.activity:activity:1.2.3] /Users/yq_mac/.gradle/caches/transforms-3/56362c92b9f3481585e4f1d968072915/transformed/activity-1.2.3/AndroidManifest.xml:17:1-24:12
+MERGED from [androidx.appcompat:appcompat-resources:1.3.0] /Users/yq_mac/.gradle/caches/transforms-3/52195859b360c57314636600ad6a91d4/transformed/appcompat-resources-1.3.0/AndroidManifest.xml:17:1-24:12
+MERGED from [androidx.drawerlayout:drawerlayout:1.0.0] /Users/yq_mac/.gradle/caches/transforms-3/1bd8d3cdaf72b8626668f9928f220990/transformed/drawerlayout-1.0.0/AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.coordinatorlayout:coordinatorlayout:1.1.0] /Users/yq_mac/.gradle/caches/transforms-3/540c3de415e2ad0dae8c3c72557f18bd/transformed/coordinatorlayout-1.1.0/AndroidManifest.xml:17:1-24:12
+MERGED from [androidx.dynamicanimation:dynamicanimation:1.0.0] /Users/yq_mac/.gradle/caches/transforms-3/fb908bd1d99226329e43cb38c1a079a5/transformed/dynamicanimation-1.0.0/AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.transition:transition:1.2.0] /Users/yq_mac/.gradle/caches/transforms-3/12f1684681e8e07edab1112de4b111e8/transformed/transition-1.2.0/AndroidManifest.xml:17:1-24:12
+MERGED from [androidx.vectordrawable:vectordrawable-animated:1.1.0] /Users/yq_mac/.gradle/caches/transforms-3/46cecd9aad60edc52b0451b37a19cfaa/transformed/vectordrawable-animated-1.1.0/AndroidManifest.xml:17:1-24:12
+MERGED from [androidx.vectordrawable:vectordrawable:1.1.0] /Users/yq_mac/.gradle/caches/transforms-3/9438819cfe0953c1a843f5a26c4cd48e/transformed/vectordrawable-1.1.0/AndroidManifest.xml:17:1-24:12
+MERGED from [androidx.viewpager:viewpager:1.0.0] /Users/yq_mac/.gradle/caches/transforms-3/458291d525d373b1b5b9001e9f7a069f/transformed/viewpager-1.0.0/AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.legacy:legacy-support-core-utils:1.0.0] /Users/yq_mac/.gradle/caches/transforms-3/36a7b5dd3a09c0f15120c850054d8600/transformed/legacy-support-core-utils-1.0.0/AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.loader:loader:1.0.0] /Users/yq_mac/.gradle/caches/transforms-3/d6a9af8876ec49fedfb1768d6c35d789/transformed/loader-1.0.0/AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.recyclerview:recyclerview:1.1.0] /Users/yq_mac/.gradle/caches/transforms-3/8d16657fcfaf001d7484e3846b3ddd13/transformed/recyclerview-1.1.0/AndroidManifest.xml:17:1-24:12
+MERGED from [androidx.customview:customview:1.0.0] /Users/yq_mac/.gradle/caches/transforms-3/ac4d2e085254880e64130c6fe85b0657/transformed/customview-1.0.0/AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.core:core:1.5.0] /Users/yq_mac/.gradle/caches/transforms-3/031a6ab44a27a4b1a5807f5c3fc152a7/transformed/core-1.5.0/AndroidManifest.xml:17:1-26:12
+MERGED from [androidx.cursoradapter:cursoradapter:1.0.0] /Users/yq_mac/.gradle/caches/transforms-3/2cd2cd9996e61a95f8358adf15446067/transformed/cursoradapter-1.0.0/AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.lifecycle:lifecycle-viewmodel-savedstate:2.3.1] /Users/yq_mac/.gradle/caches/transforms-3/83e6fb0c693422977c972b629cdff5c0/transformed/lifecycle-viewmodel-savedstate-2.3.1/AndroidManifest.xml:17:1-24:12
+MERGED from [androidx.savedstate:savedstate:1.1.0] /Users/yq_mac/.gradle/caches/transforms-3/77d2d825328d65816369307ebadac6d3/transformed/savedstate-1.1.0/AndroidManifest.xml:17:1-24:12
+MERGED from [androidx.lifecycle:lifecycle-runtime:2.3.1] /Users/yq_mac/.gradle/caches/transforms-3/efc0a75fa46b1285ab96f13ef0fdc591/transformed/lifecycle-runtime-2.3.1/AndroidManifest.xml:17:1-24:12
+MERGED from [androidx.lifecycle:lifecycle-viewmodel:2.3.1] /Users/yq_mac/.gradle/caches/transforms-3/3365a6fbaf950b7ab43128ca96e0d0d6/transformed/lifecycle-viewmodel-2.3.1/AndroidManifest.xml:17:1-24:12
+MERGED from [androidx.cardview:cardview:1.0.0] /Users/yq_mac/.gradle/caches/transforms-3/bdc0dc1ea643bfe74367465d6cfba41b/transformed/cardview-1.0.0/AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.versionedparcelable:versionedparcelable:1.1.1] /Users/yq_mac/.gradle/caches/transforms-3/3e804f4cb11cabbf08f9add69aeb36d5/transformed/versionedparcelable-1.1.1/AndroidManifest.xml:17:1-27:12
+MERGED from [androidx.tracing:tracing:1.0.0] /Users/yq_mac/.gradle/caches/transforms-3/c131de83ad42e9154183fb381fb53895/transformed/tracing-1.0.0/AndroidManifest.xml:17:1-24:12
+MERGED from [androidx.lifecycle:lifecycle-livedata:2.0.0] /Users/yq_mac/.gradle/caches/transforms-3/8af44ae5c7150173dc3bfed4efc80c99/transformed/lifecycle-livedata-2.0.0/AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.lifecycle:lifecycle-livedata-core:2.3.1] /Users/yq_mac/.gradle/caches/transforms-3/8b07b324dac89f2ae682c5cf667c84a3/transformed/lifecycle-livedata-core-2.3.1/AndroidManifest.xml:17:1-24:12
+MERGED from [androidx.arch.core:core-runtime:2.1.0] /Users/yq_mac/.gradle/caches/transforms-3/f6e88f0da231757b9154f8b17db67447/transformed/core-runtime-2.1.0/AndroidManifest.xml:17:1-24:12
+MERGED from [androidx.interpolator:interpolator:1.0.0] /Users/yq_mac/.gradle/caches/transforms-3/71529d99e342328ec3eb33e28ef7e32d/transformed/interpolator-1.0.0/AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.documentfile:documentfile:1.0.0] /Users/yq_mac/.gradle/caches/transforms-3/2b8575e0335ee926318256eccd1c9966/transformed/documentfile-1.0.0/AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.localbroadcastmanager:localbroadcastmanager:1.0.0] /Users/yq_mac/.gradle/caches/transforms-3/1986a0f7fe68a0d3be40e7848b6901ea/transformed/localbroadcastmanager-1.0.0/AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.print:print:1.0.0] /Users/yq_mac/.gradle/caches/transforms-3/0bf2f47e8c296f3ed84b7897fd3a7a0a/transformed/print-1.0.0/AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.annotation:annotation-experimental:1.0.0] /Users/yq_mac/.gradle/caches/transforms-3/8742b8d7767d8a6843d85ed68e8dbebf/transformed/annotation-experimental-1.0.0/AndroidManifest.xml:17:1-24:12
+	package
+		ADDED from /Users/yq_mac/github/mainland/IntermodalGameDemo_mainland/android/app/src/main/AndroidManifest.xml:4:5-38
+		INJECTED from /Users/yq_mac/github/mainland/IntermodalGameDemo_mainland/android/app/src/main/AndroidManifest.xml
+	android:versionName
+		INJECTED from /Users/yq_mac/github/mainland/IntermodalGameDemo_mainland/android/app/src/main/AndroidManifest.xml
+	xmlns:tools
+		ADDED from /Users/yq_mac/github/mainland/IntermodalGameDemo_mainland/android/app/src/main/AndroidManifest.xml:3:5-51
+	android:versionCode
+		INJECTED from /Users/yq_mac/github/mainland/IntermodalGameDemo_mainland/android/app/src/main/AndroidManifest.xml
+	xmlns:android
+		ADDED from /Users/yq_mac/github/mainland/IntermodalGameDemo_mainland/android/app/src/main/AndroidManifest.xml:2:11-69
+application
+ADDED from /Users/yq_mac/github/mainland/IntermodalGameDemo_mainland/android/app/src/main/AndroidManifest.xml:6:5-26:19
+INJECTED from /Users/yq_mac/github/mainland/IntermodalGameDemo_mainland/android/app/src/main/AndroidManifest.xml:6:5-26:19
+MERGED from [cfg_lib_v2.0.0.1.aar] /Users/yq_mac/.gradle/caches/transforms-3/dd0bd14ac4894f4cce16da98e2a6e297/transformed/cfg_lib_v2.0.0.1/AndroidManifest.xml:13:5-17:19
+MERGED from [cfg_lib_v2.0.0.1.aar] /Users/yq_mac/.gradle/caches/transforms-3/dd0bd14ac4894f4cce16da98e2a6e297/transformed/cfg_lib_v2.0.0.1/AndroidManifest.xml:13:5-17:19
+MERGED from [com.google.android.material:material:1.4.0] /Users/yq_mac/.gradle/caches/transforms-3/a2e5f01514509273e9b8bc0d3a8fd54c/transformed/material-1.4.0/AndroidManifest.xml:22:5-20
+MERGED from [com.google.android.material:material:1.4.0] /Users/yq_mac/.gradle/caches/transforms-3/a2e5f01514509273e9b8bc0d3a8fd54c/transformed/material-1.4.0/AndroidManifest.xml:22:5-20
+MERGED from [androidx.constraintlayout:constraintlayout:2.0.4] /Users/yq_mac/.gradle/caches/transforms-3/6f7c22aa26e6bfa64a16195ef51e88d3/transformed/constraintlayout-2.0.4/AndroidManifest.xml:9:5-20
+MERGED from [androidx.constraintlayout:constraintlayout:2.0.4] /Users/yq_mac/.gradle/caches/transforms-3/6f7c22aa26e6bfa64a16195ef51e88d3/transformed/constraintlayout-2.0.4/AndroidManifest.xml:9:5-20
+MERGED from [androidx.core:core:1.5.0] /Users/yq_mac/.gradle/caches/transforms-3/031a6ab44a27a4b1a5807f5c3fc152a7/transformed/core-1.5.0/AndroidManifest.xml:24:5-89
+MERGED from [androidx.core:core:1.5.0] /Users/yq_mac/.gradle/caches/transforms-3/031a6ab44a27a4b1a5807f5c3fc152a7/transformed/core-1.5.0/AndroidManifest.xml:24:5-89
+MERGED from [androidx.versionedparcelable:versionedparcelable:1.1.1] /Users/yq_mac/.gradle/caches/transforms-3/3e804f4cb11cabbf08f9add69aeb36d5/transformed/versionedparcelable-1.1.1/AndroidManifest.xml:24:5-25:19
+MERGED from [androidx.versionedparcelable:versionedparcelable:1.1.1] /Users/yq_mac/.gradle/caches/transforms-3/3e804f4cb11cabbf08f9add69aeb36d5/transformed/versionedparcelable-1.1.1/AndroidManifest.xml:24:5-25:19
+	android:extractNativeLibs
+		INJECTED from /Users/yq_mac/github/mainland/IntermodalGameDemo_mainland/android/app/src/main/AndroidManifest.xml
+	android:appComponentFactory
+		ADDED from [androidx.core:core:1.5.0] /Users/yq_mac/.gradle/caches/transforms-3/031a6ab44a27a4b1a5807f5c3fc152a7/transformed/core-1.5.0/AndroidManifest.xml:24:18-86
+	android:supportsRtl
+		ADDED from /Users/yq_mac/github/mainland/IntermodalGameDemo_mainland/android/app/src/main/AndroidManifest.xml:14:9-35
+	android:label
+		ADDED from /Users/yq_mac/github/mainland/IntermodalGameDemo_mainland/android/app/src/main/AndroidManifest.xml:12:9-41
+	android:fullBackupContent
+		ADDED from /Users/yq_mac/github/mainland/IntermodalGameDemo_mainland/android/app/src/main/AndroidManifest.xml:10:9-54
+	android:roundIcon
+		ADDED from /Users/yq_mac/github/mainland/IntermodalGameDemo_mainland/android/app/src/main/AndroidManifest.xml:13:9-54
+	tools:targetApi
+		ADDED from /Users/yq_mac/github/mainland/IntermodalGameDemo_mainland/android/app/src/main/AndroidManifest.xml:16:9-29
+	android:icon
+		ADDED from /Users/yq_mac/github/mainland/IntermodalGameDemo_mainland/android/app/src/main/AndroidManifest.xml:11:9-43
+	android:allowBackup
+		ADDED from /Users/yq_mac/github/mainland/IntermodalGameDemo_mainland/android/app/src/main/AndroidManifest.xml:8:9-35
+	android:theme
+		ADDED from /Users/yq_mac/github/mainland/IntermodalGameDemo_mainland/android/app/src/main/AndroidManifest.xml:15:9-51
+	android:dataExtractionRules
+		ADDED from /Users/yq_mac/github/mainland/IntermodalGameDemo_mainland/android/app/src/main/AndroidManifest.xml:9:9-65
+	android:name
+		ADDED from /Users/yq_mac/github/mainland/IntermodalGameDemo_mainland/android/app/src/main/AndroidManifest.xml:7:9-63
+activity#com.cftech.gamesdk.demo.MainActivity
+ADDED from /Users/yq_mac/github/mainland/IntermodalGameDemo_mainland/android/app/src/main/AndroidManifest.xml:17:9-25:20
+	android:exported
+		ADDED from /Users/yq_mac/github/mainland/IntermodalGameDemo_mainland/android/app/src/main/AndroidManifest.xml:19:13-36
+	android:name
+		ADDED from /Users/yq_mac/github/mainland/IntermodalGameDemo_mainland/android/app/src/main/AndroidManifest.xml:18:13-41
+intent-filter#action:name:android.intent.action.MAIN+category:name:android.intent.category.LAUNCHER
+ADDED from /Users/yq_mac/github/mainland/IntermodalGameDemo_mainland/android/app/src/main/AndroidManifest.xml:20:13-24:29
+action#android.intent.action.MAIN
+ADDED from /Users/yq_mac/github/mainland/IntermodalGameDemo_mainland/android/app/src/main/AndroidManifest.xml:21:17-69
+	android:name
+		ADDED from /Users/yq_mac/github/mainland/IntermodalGameDemo_mainland/android/app/src/main/AndroidManifest.xml:21:25-66
+category#android.intent.category.LAUNCHER
+ADDED from /Users/yq_mac/github/mainland/IntermodalGameDemo_mainland/android/app/src/main/AndroidManifest.xml:23:17-77
+	android:name
+		ADDED from /Users/yq_mac/github/mainland/IntermodalGameDemo_mainland/android/app/src/main/AndroidManifest.xml:23:27-74
+uses-sdk
+INJECTED from /Users/yq_mac/github/mainland/IntermodalGameDemo_mainland/android/app/src/main/AndroidManifest.xml reason: use-sdk injection requested
+INJECTED from /Users/yq_mac/github/mainland/IntermodalGameDemo_mainland/android/app/src/main/AndroidManifest.xml
+INJECTED from /Users/yq_mac/github/mainland/IntermodalGameDemo_mainland/android/app/src/main/AndroidManifest.xml
+MERGED from [cfg_lib_v2.0.0.1.aar] /Users/yq_mac/.gradle/caches/transforms-3/dd0bd14ac4894f4cce16da98e2a6e297/transformed/cfg_lib_v2.0.0.1/AndroidManifest.xml:5:5-44
+MERGED from [cfg_lib_v2.0.0.1.aar] /Users/yq_mac/.gradle/caches/transforms-3/dd0bd14ac4894f4cce16da98e2a6e297/transformed/cfg_lib_v2.0.0.1/AndroidManifest.xml:5:5-44
+MERGED from [com.google.android.material:material:1.4.0] /Users/yq_mac/.gradle/caches/transforms-3/a2e5f01514509273e9b8bc0d3a8fd54c/transformed/material-1.4.0/AndroidManifest.xml:20:5-44
+MERGED from [com.google.android.material:material:1.4.0] /Users/yq_mac/.gradle/caches/transforms-3/a2e5f01514509273e9b8bc0d3a8fd54c/transformed/material-1.4.0/AndroidManifest.xml:20:5-44
+MERGED from [androidx.constraintlayout:constraintlayout:2.0.4] /Users/yq_mac/.gradle/caches/transforms-3/6f7c22aa26e6bfa64a16195ef51e88d3/transformed/constraintlayout-2.0.4/AndroidManifest.xml:5:5-7:41
+MERGED from [androidx.constraintlayout:constraintlayout:2.0.4] /Users/yq_mac/.gradle/caches/transforms-3/6f7c22aa26e6bfa64a16195ef51e88d3/transformed/constraintlayout-2.0.4/AndroidManifest.xml:5:5-7:41
+MERGED from [androidx.appcompat:appcompat:1.3.0] /Users/yq_mac/.gradle/caches/transforms-3/7748048852509bc92c33f8776472b29b/transformed/appcompat-1.3.0/AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.appcompat:appcompat:1.3.0] /Users/yq_mac/.gradle/caches/transforms-3/7748048852509bc92c33f8776472b29b/transformed/appcompat-1.3.0/AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.viewpager2:viewpager2:1.0.0] /Users/yq_mac/.gradle/caches/transforms-3/49ac023b81931e8abb19d419e4863b7b/transformed/viewpager2-1.0.0/AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.viewpager2:viewpager2:1.0.0] /Users/yq_mac/.gradle/caches/transforms-3/49ac023b81931e8abb19d419e4863b7b/transformed/viewpager2-1.0.0/AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.fragment:fragment:1.3.4] /Users/yq_mac/.gradle/caches/transforms-3/128907d4adc4ea5e9b40bb61e12c3451/transformed/fragment-1.3.4/AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.fragment:fragment:1.3.4] /Users/yq_mac/.gradle/caches/transforms-3/128907d4adc4ea5e9b40bb61e12c3451/transformed/fragment-1.3.4/AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.activity:activity:1.2.3] /Users/yq_mac/.gradle/caches/transforms-3/56362c92b9f3481585e4f1d968072915/transformed/activity-1.2.3/AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.activity:activity:1.2.3] /Users/yq_mac/.gradle/caches/transforms-3/56362c92b9f3481585e4f1d968072915/transformed/activity-1.2.3/AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.appcompat:appcompat-resources:1.3.0] /Users/yq_mac/.gradle/caches/transforms-3/52195859b360c57314636600ad6a91d4/transformed/appcompat-resources-1.3.0/AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.appcompat:appcompat-resources:1.3.0] /Users/yq_mac/.gradle/caches/transforms-3/52195859b360c57314636600ad6a91d4/transformed/appcompat-resources-1.3.0/AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.drawerlayout:drawerlayout:1.0.0] /Users/yq_mac/.gradle/caches/transforms-3/1bd8d3cdaf72b8626668f9928f220990/transformed/drawerlayout-1.0.0/AndroidManifest.xml:20:5-44
+MERGED from [androidx.drawerlayout:drawerlayout:1.0.0] /Users/yq_mac/.gradle/caches/transforms-3/1bd8d3cdaf72b8626668f9928f220990/transformed/drawerlayout-1.0.0/AndroidManifest.xml:20:5-44
+MERGED from [androidx.coordinatorlayout:coordinatorlayout:1.1.0] /Users/yq_mac/.gradle/caches/transforms-3/540c3de415e2ad0dae8c3c72557f18bd/transformed/coordinatorlayout-1.1.0/AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.coordinatorlayout:coordinatorlayout:1.1.0] /Users/yq_mac/.gradle/caches/transforms-3/540c3de415e2ad0dae8c3c72557f18bd/transformed/coordinatorlayout-1.1.0/AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.dynamicanimation:dynamicanimation:1.0.0] /Users/yq_mac/.gradle/caches/transforms-3/fb908bd1d99226329e43cb38c1a079a5/transformed/dynamicanimation-1.0.0/AndroidManifest.xml:20:5-44
+MERGED from [androidx.dynamicanimation:dynamicanimation:1.0.0] /Users/yq_mac/.gradle/caches/transforms-3/fb908bd1d99226329e43cb38c1a079a5/transformed/dynamicanimation-1.0.0/AndroidManifest.xml:20:5-44
+MERGED from [androidx.transition:transition:1.2.0] /Users/yq_mac/.gradle/caches/transforms-3/12f1684681e8e07edab1112de4b111e8/transformed/transition-1.2.0/AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.transition:transition:1.2.0] /Users/yq_mac/.gradle/caches/transforms-3/12f1684681e8e07edab1112de4b111e8/transformed/transition-1.2.0/AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.vectordrawable:vectordrawable-animated:1.1.0] /Users/yq_mac/.gradle/caches/transforms-3/46cecd9aad60edc52b0451b37a19cfaa/transformed/vectordrawable-animated-1.1.0/AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.vectordrawable:vectordrawable-animated:1.1.0] /Users/yq_mac/.gradle/caches/transforms-3/46cecd9aad60edc52b0451b37a19cfaa/transformed/vectordrawable-animated-1.1.0/AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.vectordrawable:vectordrawable:1.1.0] /Users/yq_mac/.gradle/caches/transforms-3/9438819cfe0953c1a843f5a26c4cd48e/transformed/vectordrawable-1.1.0/AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.vectordrawable:vectordrawable:1.1.0] /Users/yq_mac/.gradle/caches/transforms-3/9438819cfe0953c1a843f5a26c4cd48e/transformed/vectordrawable-1.1.0/AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.viewpager:viewpager:1.0.0] /Users/yq_mac/.gradle/caches/transforms-3/458291d525d373b1b5b9001e9f7a069f/transformed/viewpager-1.0.0/AndroidManifest.xml:20:5-44
+MERGED from [androidx.viewpager:viewpager:1.0.0] /Users/yq_mac/.gradle/caches/transforms-3/458291d525d373b1b5b9001e9f7a069f/transformed/viewpager-1.0.0/AndroidManifest.xml:20:5-44
+MERGED from [androidx.legacy:legacy-support-core-utils:1.0.0] /Users/yq_mac/.gradle/caches/transforms-3/36a7b5dd3a09c0f15120c850054d8600/transformed/legacy-support-core-utils-1.0.0/AndroidManifest.xml:20:5-44
+MERGED from [androidx.legacy:legacy-support-core-utils:1.0.0] /Users/yq_mac/.gradle/caches/transforms-3/36a7b5dd3a09c0f15120c850054d8600/transformed/legacy-support-core-utils-1.0.0/AndroidManifest.xml:20:5-44
+MERGED from [androidx.loader:loader:1.0.0] /Users/yq_mac/.gradle/caches/transforms-3/d6a9af8876ec49fedfb1768d6c35d789/transformed/loader-1.0.0/AndroidManifest.xml:20:5-44
+MERGED from [androidx.loader:loader:1.0.0] /Users/yq_mac/.gradle/caches/transforms-3/d6a9af8876ec49fedfb1768d6c35d789/transformed/loader-1.0.0/AndroidManifest.xml:20:5-44
+MERGED from [androidx.recyclerview:recyclerview:1.1.0] /Users/yq_mac/.gradle/caches/transforms-3/8d16657fcfaf001d7484e3846b3ddd13/transformed/recyclerview-1.1.0/AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.recyclerview:recyclerview:1.1.0] /Users/yq_mac/.gradle/caches/transforms-3/8d16657fcfaf001d7484e3846b3ddd13/transformed/recyclerview-1.1.0/AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.customview:customview:1.0.0] /Users/yq_mac/.gradle/caches/transforms-3/ac4d2e085254880e64130c6fe85b0657/transformed/customview-1.0.0/AndroidManifest.xml:20:5-44
+MERGED from [androidx.customview:customview:1.0.0] /Users/yq_mac/.gradle/caches/transforms-3/ac4d2e085254880e64130c6fe85b0657/transformed/customview-1.0.0/AndroidManifest.xml:20:5-44
+MERGED from [androidx.core:core:1.5.0] /Users/yq_mac/.gradle/caches/transforms-3/031a6ab44a27a4b1a5807f5c3fc152a7/transformed/core-1.5.0/AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.core:core:1.5.0] /Users/yq_mac/.gradle/caches/transforms-3/031a6ab44a27a4b1a5807f5c3fc152a7/transformed/core-1.5.0/AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.cursoradapter:cursoradapter:1.0.0] /Users/yq_mac/.gradle/caches/transforms-3/2cd2cd9996e61a95f8358adf15446067/transformed/cursoradapter-1.0.0/AndroidManifest.xml:20:5-44
+MERGED from [androidx.cursoradapter:cursoradapter:1.0.0] /Users/yq_mac/.gradle/caches/transforms-3/2cd2cd9996e61a95f8358adf15446067/transformed/cursoradapter-1.0.0/AndroidManifest.xml:20:5-44
+MERGED from [androidx.lifecycle:lifecycle-viewmodel-savedstate:2.3.1] /Users/yq_mac/.gradle/caches/transforms-3/83e6fb0c693422977c972b629cdff5c0/transformed/lifecycle-viewmodel-savedstate-2.3.1/AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.lifecycle:lifecycle-viewmodel-savedstate:2.3.1] /Users/yq_mac/.gradle/caches/transforms-3/83e6fb0c693422977c972b629cdff5c0/transformed/lifecycle-viewmodel-savedstate-2.3.1/AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.savedstate:savedstate:1.1.0] /Users/yq_mac/.gradle/caches/transforms-3/77d2d825328d65816369307ebadac6d3/transformed/savedstate-1.1.0/AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.savedstate:savedstate:1.1.0] /Users/yq_mac/.gradle/caches/transforms-3/77d2d825328d65816369307ebadac6d3/transformed/savedstate-1.1.0/AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.lifecycle:lifecycle-runtime:2.3.1] /Users/yq_mac/.gradle/caches/transforms-3/efc0a75fa46b1285ab96f13ef0fdc591/transformed/lifecycle-runtime-2.3.1/AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.lifecycle:lifecycle-runtime:2.3.1] /Users/yq_mac/.gradle/caches/transforms-3/efc0a75fa46b1285ab96f13ef0fdc591/transformed/lifecycle-runtime-2.3.1/AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.lifecycle:lifecycle-viewmodel:2.3.1] /Users/yq_mac/.gradle/caches/transforms-3/3365a6fbaf950b7ab43128ca96e0d0d6/transformed/lifecycle-viewmodel-2.3.1/AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.lifecycle:lifecycle-viewmodel:2.3.1] /Users/yq_mac/.gradle/caches/transforms-3/3365a6fbaf950b7ab43128ca96e0d0d6/transformed/lifecycle-viewmodel-2.3.1/AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.cardview:cardview:1.0.0] /Users/yq_mac/.gradle/caches/transforms-3/bdc0dc1ea643bfe74367465d6cfba41b/transformed/cardview-1.0.0/AndroidManifest.xml:20:5-44
+MERGED from [androidx.cardview:cardview:1.0.0] /Users/yq_mac/.gradle/caches/transforms-3/bdc0dc1ea643bfe74367465d6cfba41b/transformed/cardview-1.0.0/AndroidManifest.xml:20:5-44
+MERGED from [androidx.versionedparcelable:versionedparcelable:1.1.1] /Users/yq_mac/.gradle/caches/transforms-3/3e804f4cb11cabbf08f9add69aeb36d5/transformed/versionedparcelable-1.1.1/AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.versionedparcelable:versionedparcelable:1.1.1] /Users/yq_mac/.gradle/caches/transforms-3/3e804f4cb11cabbf08f9add69aeb36d5/transformed/versionedparcelable-1.1.1/AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.tracing:tracing:1.0.0] /Users/yq_mac/.gradle/caches/transforms-3/c131de83ad42e9154183fb381fb53895/transformed/tracing-1.0.0/AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.tracing:tracing:1.0.0] /Users/yq_mac/.gradle/caches/transforms-3/c131de83ad42e9154183fb381fb53895/transformed/tracing-1.0.0/AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.lifecycle:lifecycle-livedata:2.0.0] /Users/yq_mac/.gradle/caches/transforms-3/8af44ae5c7150173dc3bfed4efc80c99/transformed/lifecycle-livedata-2.0.0/AndroidManifest.xml:20:5-44
+MERGED from [androidx.lifecycle:lifecycle-livedata:2.0.0] /Users/yq_mac/.gradle/caches/transforms-3/8af44ae5c7150173dc3bfed4efc80c99/transformed/lifecycle-livedata-2.0.0/AndroidManifest.xml:20:5-44
+MERGED from [androidx.lifecycle:lifecycle-livedata-core:2.3.1] /Users/yq_mac/.gradle/caches/transforms-3/8b07b324dac89f2ae682c5cf667c84a3/transformed/lifecycle-livedata-core-2.3.1/AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.lifecycle:lifecycle-livedata-core:2.3.1] /Users/yq_mac/.gradle/caches/transforms-3/8b07b324dac89f2ae682c5cf667c84a3/transformed/lifecycle-livedata-core-2.3.1/AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.arch.core:core-runtime:2.1.0] /Users/yq_mac/.gradle/caches/transforms-3/f6e88f0da231757b9154f8b17db67447/transformed/core-runtime-2.1.0/AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.arch.core:core-runtime:2.1.0] /Users/yq_mac/.gradle/caches/transforms-3/f6e88f0da231757b9154f8b17db67447/transformed/core-runtime-2.1.0/AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.interpolator:interpolator:1.0.0] /Users/yq_mac/.gradle/caches/transforms-3/71529d99e342328ec3eb33e28ef7e32d/transformed/interpolator-1.0.0/AndroidManifest.xml:20:5-44
+MERGED from [androidx.interpolator:interpolator:1.0.0] /Users/yq_mac/.gradle/caches/transforms-3/71529d99e342328ec3eb33e28ef7e32d/transformed/interpolator-1.0.0/AndroidManifest.xml:20:5-44
+MERGED from [androidx.documentfile:documentfile:1.0.0] /Users/yq_mac/.gradle/caches/transforms-3/2b8575e0335ee926318256eccd1c9966/transformed/documentfile-1.0.0/AndroidManifest.xml:20:5-44
+MERGED from [androidx.documentfile:documentfile:1.0.0] /Users/yq_mac/.gradle/caches/transforms-3/2b8575e0335ee926318256eccd1c9966/transformed/documentfile-1.0.0/AndroidManifest.xml:20:5-44
+MERGED from [androidx.localbroadcastmanager:localbroadcastmanager:1.0.0] /Users/yq_mac/.gradle/caches/transforms-3/1986a0f7fe68a0d3be40e7848b6901ea/transformed/localbroadcastmanager-1.0.0/AndroidManifest.xml:20:5-44
+MERGED from [androidx.localbroadcastmanager:localbroadcastmanager:1.0.0] /Users/yq_mac/.gradle/caches/transforms-3/1986a0f7fe68a0d3be40e7848b6901ea/transformed/localbroadcastmanager-1.0.0/AndroidManifest.xml:20:5-44
+MERGED from [androidx.print:print:1.0.0] /Users/yq_mac/.gradle/caches/transforms-3/0bf2f47e8c296f3ed84b7897fd3a7a0a/transformed/print-1.0.0/AndroidManifest.xml:20:5-44
+MERGED from [androidx.print:print:1.0.0] /Users/yq_mac/.gradle/caches/transforms-3/0bf2f47e8c296f3ed84b7897fd3a7a0a/transformed/print-1.0.0/AndroidManifest.xml:20:5-44
+MERGED from [androidx.annotation:annotation-experimental:1.0.0] /Users/yq_mac/.gradle/caches/transforms-3/8742b8d7767d8a6843d85ed68e8dbebf/transformed/annotation-experimental-1.0.0/AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.annotation:annotation-experimental:1.0.0] /Users/yq_mac/.gradle/caches/transforms-3/8742b8d7767d8a6843d85ed68e8dbebf/transformed/annotation-experimental-1.0.0/AndroidManifest.xml:20:5-22:41
+	android:targetSdkVersion
+		INJECTED from /Users/yq_mac/github/mainland/IntermodalGameDemo_mainland/android/app/src/main/AndroidManifest.xml
+	android:minSdkVersion
+		INJECTED from /Users/yq_mac/github/mainland/IntermodalGameDemo_mainland/android/app/src/main/AndroidManifest.xml
+uses-permission#android.permission.ACCESS_NETWORK_STATE
+ADDED from [cfg_lib_v2.0.0.1.aar] /Users/yq_mac/.gradle/caches/transforms-3/dd0bd14ac4894f4cce16da98e2a6e297/transformed/cfg_lib_v2.0.0.1/AndroidManifest.xml:7:5-79
+	android:name
+		ADDED from [cfg_lib_v2.0.0.1.aar] /Users/yq_mac/.gradle/caches/transforms-3/dd0bd14ac4894f4cce16da98e2a6e297/transformed/cfg_lib_v2.0.0.1/AndroidManifest.xml:7:22-76
+uses-permission#android.permission.READ_EXTERNAL_STORAGE
+ADDED from [cfg_lib_v2.0.0.1.aar] /Users/yq_mac/.gradle/caches/transforms-3/dd0bd14ac4894f4cce16da98e2a6e297/transformed/cfg_lib_v2.0.0.1/AndroidManifest.xml:8:5-80
+	android:name
+		ADDED from [cfg_lib_v2.0.0.1.aar] /Users/yq_mac/.gradle/caches/transforms-3/dd0bd14ac4894f4cce16da98e2a6e297/transformed/cfg_lib_v2.0.0.1/AndroidManifest.xml:8:22-77
+uses-permission#android.permission.WRITE_EXTERNAL_STORAGE
+ADDED from [cfg_lib_v2.0.0.1.aar] /Users/yq_mac/.gradle/caches/transforms-3/dd0bd14ac4894f4cce16da98e2a6e297/transformed/cfg_lib_v2.0.0.1/AndroidManifest.xml:9:5-81
+	android:name
+		ADDED from [cfg_lib_v2.0.0.1.aar] /Users/yq_mac/.gradle/caches/transforms-3/dd0bd14ac4894f4cce16da98e2a6e297/transformed/cfg_lib_v2.0.0.1/AndroidManifest.xml:9:22-78
+uses-permission#android.permission.INTERNET
+ADDED from [cfg_lib_v2.0.0.1.aar] /Users/yq_mac/.gradle/caches/transforms-3/dd0bd14ac4894f4cce16da98e2a6e297/transformed/cfg_lib_v2.0.0.1/AndroidManifest.xml:10:5-67
+	android:name
+		ADDED from [cfg_lib_v2.0.0.1.aar] /Users/yq_mac/.gradle/caches/transforms-3/dd0bd14ac4894f4cce16da98e2a6e297/transformed/cfg_lib_v2.0.0.1/AndroidManifest.xml:10:22-64
+activity#com.cftech.gamelibrary.view.act.CFGameActivity
+ADDED from [cfg_lib_v2.0.0.1.aar] /Users/yq_mac/.gradle/caches/transforms-3/dd0bd14ac4894f4cce16da98e2a6e297/transformed/cfg_lib_v2.0.0.1/AndroidManifest.xml:14:9-16:75
+	android:theme
+		ADDED from [cfg_lib_v2.0.0.1.aar] /Users/yq_mac/.gradle/caches/transforms-3/dd0bd14ac4894f4cce16da98e2a6e297/transformed/cfg_lib_v2.0.0.1/AndroidManifest.xml:16:13-72
+	android:name
+		ADDED from [cfg_lib_v2.0.0.1.aar] /Users/yq_mac/.gradle/caches/transforms-3/dd0bd14ac4894f4cce16da98e2a6e297/transformed/cfg_lib_v2.0.0.1/AndroidManifest.xml:15:13-74

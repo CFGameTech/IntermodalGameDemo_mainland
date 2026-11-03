@@ -1,0 +1,571 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="AndroidLayouts">
+    <shared>
+      <config />
+    </shared>
+    <layouts>
+      <layout url="file://$PROJECT_DIR$/app/src/main/res/layout/activity_main.xml">
+        <config>
+          <theme>@style/Theme.CFGameSDKDemo</theme>
+        </config>
+      </layout>
+    </layouts>
+  </component>
+  <component name="AutoImportSettings">
+    <option name="autoReloadType" value="NONE" />
+  </component>
+  <component name="ChangeListManager">
+    <list default="true" id="478e08a6-a216-4b5d-b413-361f7299313f" name="Changes" comment="">
+      <change beforePath="$PROJECT_DIR$/app/build.gradle" beforeDir="false" afterPath="$PROJECT_DIR$/app/build.gradle" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/libs/cfg_lib_v1.8.4.7.3.aar" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/java/com/cftech/gamesdk/demo/BaseApplication.java" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/java/com/cftech/gamesdk/demo/BaseApplication.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/java/com/cftech/gamesdk/demo/MainActivity.java" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/java/com/cftech/gamesdk/demo/MainActivity.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/res/layout/activity_main.xml" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/res/layout/activity_main.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/build.gradle" beforeDir="false" afterPath="$PROJECT_DIR$/build.gradle" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/gradle/wrapper/gradle-wrapper.properties" beforeDir="false" afterPath="$PROJECT_DIR$/gradle/wrapper/gradle-wrapper.properties" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../ios/CFGameSDK_Demo/CFGameSDK_Demo.xcodeproj/project.pbxproj" beforeDir="false" afterPath="$PROJECT_DIR$/../ios/CFGameSDK_Demo/CFGameSDK_Demo.xcodeproj/project.pbxproj" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../ios/CFGameSDK_Demo/CFGameSDK_Demo.xcodeproj/xcuserdata/yq_mac.xcuserdatad/xcschemes/xcschememanagement.plist" beforeDir="false" afterPath="$PROJECT_DIR$/../ios/CFGameSDK_Demo/CFGameSDK_Demo.xcodeproj/xcuserdata/yq_mac.xcuserdatad/xcschemes/xcschememanagement.plist" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../ios/CFGameSDK_Demo/CFGameSDK_Demo.xcworkspace/xcuserdata/yq_mac.xcuserdatad/UserInterfaceState.xcuserstate" beforeDir="false" afterPath="$PROJECT_DIR$/../ios/CFGameSDK_Demo/CFGameSDK_Demo.xcworkspace/xcuserdata/yq_mac.xcuserdatad/UserInterfaceState.xcuserstate" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../ios/CFGameSDK_Demo/CFGameSDK_Demo/Base.lproj/Main.storyboard" beforeDir="false" afterPath="$PROJECT_DIR$/../ios/CFGameSDK_Demo/CFGameSDK_Demo/Base.lproj/Main.storyboard" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../ios/CFGameSDK_Demo/CFGameSDK_Demo/SDK/CFGameSDK.xcframework/ios-arm64/CFGameSDK.framework/CFGameSDK" beforeDir="false" afterPath="$PROJECT_DIR$/../ios/CFGameSDK_Demo/CFGameSDK_Demo/SDK/CFGameSDK.xcframework/ios-arm64/CFGameSDK.framework/CFGameSDK" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../ios/CFGameSDK_Demo/CFGameSDK_Demo/SDK/CFGameSDK.xcframework/ios-arm64/CFGameSDK.framework/Headers/CFGameModel.h" beforeDir="false" afterPath="$PROJECT_DIR$/../ios/CFGameSDK_Demo/CFGameSDK_Demo/SDK/CFGameSDK.xcframework/ios-arm64/CFGameSDK.framework/Headers/CFGameModel.h" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../ios/CFGameSDK_Demo/CFGameSDK_Demo/SDK/CFGameSDK.xcframework/ios-arm64/CFGameSDK.framework/Headers/CFGameSDK.h" beforeDir="false" afterPath="$PROJECT_DIR$/../ios/CFGameSDK_Demo/CFGameSDK_Demo/SDK/CFGameSDK.xcframework/ios-arm64/CFGameSDK.framework/Headers/CFGameSDK.h" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../ios/CFGameSDK_Demo/CFGameSDK_Demo/SDK/CFGameSDK.xcframework/ios-arm64/CFGameSDK.framework/Headers/CFGameSDKStateDefines.h" beforeDir="false" afterPath="$PROJECT_DIR$/../ios/CFGameSDK_Demo/CFGameSDK_Demo/SDK/CFGameSDK.xcframework/ios-arm64/CFGameSDK.framework/Headers/CFGameSDKStateDefines.h" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../ios/CFGameSDK_Demo/CFGameSDK_Demo/SDK/CFGameSDK.xcframework/ios-arm64/CFGameSDK.framework/Info.plist" beforeDir="false" afterPath="$PROJECT_DIR$/../ios/CFGameSDK_Demo/CFGameSDK_Demo/SDK/CFGameSDK.xcframework/ios-arm64/CFGameSDK.framework/Info.plist" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../ios/CFGameSDK_Demo/CFGameSDK_Demo/SDK/CFGameSDK.xcframework/ios-arm64/CFGameSDK.framework/_CodeSignature/CodeResources" beforeDir="false" afterPath="$PROJECT_DIR$/../ios/CFGameSDK_Demo/CFGameSDK_Demo/SDK/CFGameSDK.xcframework/ios-arm64/CFGameSDK.framework/_CodeSignature/CodeResources" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../ios/CFGameSDK_Demo/CFGameSDK_Demo/SDK/CFGameSDK.xcframework/ios-arm64/CFGameSDK.framework/cf_game_channel.js" beforeDir="false" afterPath="$PROJECT_DIR$/../ios/CFGameSDK_Demo/CFGameSDK_Demo/SDK/CFGameSDK.xcframework/ios-arm64/CFGameSDK.framework/cf_game_channel.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../ios/CFGameSDK_Demo/CFGameSDK_Demo/SDK/CFGameSDK.xcframework/ios-arm64_x86_64-simulator/CFGameSDK.framework/CFGameSDK" beforeDir="false" afterPath="$PROJECT_DIR$/../ios/CFGameSDK_Demo/CFGameSDK_Demo/SDK/CFGameSDK.xcframework/ios-arm64_x86_64-simulator/CFGameSDK.framework/CFGameSDK" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../ios/CFGameSDK_Demo/CFGameSDK_Demo/SDK/CFGameSDK.xcframework/ios-arm64_x86_64-simulator/CFGameSDK.framework/Headers/CFGameModel.h" beforeDir="false" afterPath="$PROJECT_DIR$/../ios/CFGameSDK_Demo/CFGameSDK_Demo/SDK/CFGameSDK.xcframework/ios-arm64_x86_64-simulator/CFGameSDK.framework/Headers/CFGameModel.h" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../ios/CFGameSDK_Demo/CFGameSDK_Demo/SDK/CFGameSDK.xcframework/ios-arm64_x86_64-simulator/CFGameSDK.framework/Headers/CFGameSDK.h" beforeDir="false" afterPath="$PROJECT_DIR$/../ios/CFGameSDK_Demo/CFGameSDK_Demo/SDK/CFGameSDK.xcframework/ios-arm64_x86_64-simulator/CFGameSDK.framework/Headers/CFGameSDK.h" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../ios/CFGameSDK_Demo/CFGameSDK_Demo/SDK/CFGameSDK.xcframework/ios-arm64_x86_64-simulator/CFGameSDK.framework/Headers/CFGameSDKStateDefines.h" beforeDir="false" afterPath="$PROJECT_DIR$/../ios/CFGameSDK_Demo/CFGameSDK_Demo/SDK/CFGameSDK.xcframework/ios-arm64_x86_64-simulator/CFGameSDK.framework/Headers/CFGameSDKStateDefines.h" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../ios/CFGameSDK_Demo/CFGameSDK_Demo/SDK/CFGameSDK.xcframework/ios-arm64_x86_64-simulator/CFGameSDK.framework/Info.plist" beforeDir="false" afterPath="$PROJECT_DIR$/../ios/CFGameSDK_Demo/CFGameSDK_Demo/SDK/CFGameSDK.xcframework/ios-arm64_x86_64-simulator/CFGameSDK.framework/Info.plist" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../ios/CFGameSDK_Demo/CFGameSDK_Demo/SDK/CFGameSDK.xcframework/ios-arm64_x86_64-simulator/CFGameSDK.framework/_CodeSignature/CodeResources" beforeDir="false" afterPath="$PROJECT_DIR$/../ios/CFGameSDK_Demo/CFGameSDK_Demo/SDK/CFGameSDK.xcframework/ios-arm64_x86_64-simulator/CFGameSDK.framework/_CodeSignature/CodeResources" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../ios/CFGameSDK_Demo/CFGameSDK_Demo/SDK/CFGameSDK.xcframework/ios-arm64_x86_64-simulator/CFGameSDK.framework/cf_game_channel.js" beforeDir="false" afterPath="$PROJECT_DIR$/../ios/CFGameSDK_Demo/CFGameSDK_Demo/SDK/CFGameSDK.xcframework/ios-arm64_x86_64-simulator/CFGameSDK.framework/cf_game_channel.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../ios/CFGameSDK_Demo/CFGameSDK_Demo/ViewController.m" beforeDir="false" afterPath="$PROJECT_DIR$/../ios/CFGameSDK_Demo/CFGameSDK_Demo/ViewController.m" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../ios/CFGameSDK_Demo/Podfile" beforeDir="false" afterPath="$PROJECT_DIR$/../ios/CFGameSDK_Demo/Podfile" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../ios/CFGameSDK_Demo/Podfile.lock" beforeDir="false" afterPath="$PROJECT_DIR$/../ios/CFGameSDK_Demo/Podfile.lock" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../ios/CFGameSDK_Demo/Pods/AFNetworking/AFNetworking/AFCompatibilityMacros.h" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../ios/CFGameSDK_Demo/Pods/AFNetworking/AFNetworking/AFHTTPSessionManager.h" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../ios/CFGameSDK_Demo/Pods/AFNetworking/AFNetworking/AFHTTPSessionManager.m" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../ios/CFGameSDK_Demo/Pods/AFNetworking/AFNetworking/AFNetworkReachabilityManager.h" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../ios/CFGameSDK_Demo/Pods/AFNetworking/AFNetworking/AFNetworkReachabilityManager.m" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../ios/CFGameSDK_Demo/Pods/AFNetworking/AFNetworking/AFNetworking.h" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../ios/CFGameSDK_Demo/Pods/AFNetworking/AFNetworking/AFSecurityPolicy.h" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../ios/CFGameSDK_Demo/Pods/AFNetworking/AFNetworking/AFSecurityPolicy.m" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../ios/CFGameSDK_Demo/Pods/AFNetworking/AFNetworking/AFURLRequestSerialization.h" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../ios/CFGameSDK_Demo/Pods/AFNetworking/AFNetworking/AFURLRequestSerialization.m" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../ios/CFGameSDK_Demo/Pods/AFNetworking/AFNetworking/AFURLResponseSerialization.h" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../ios/CFGameSDK_Demo/Pods/AFNetworking/AFNetworking/AFURLResponseSerialization.m" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../ios/CFGameSDK_Demo/Pods/AFNetworking/AFNetworking/AFURLSessionManager.h" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../ios/CFGameSDK_Demo/Pods/AFNetworking/AFNetworking/AFURLSessionManager.m" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../ios/CFGameSDK_Demo/Pods/AFNetworking/LICENSE" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../ios/CFGameSDK_Demo/Pods/AFNetworking/README.md" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../ios/CFGameSDK_Demo/Pods/AFNetworking/UIKit+AFNetworking/AFAutoPurgingImageCache.h" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../ios/CFGameSDK_Demo/Pods/AFNetworking/UIKit+AFNetworking/AFAutoPurgingImageCache.m" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../ios/CFGameSDK_Demo/Pods/AFNetworking/UIKit+AFNetworking/AFImageDownloader.h" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../ios/CFGameSDK_Demo/Pods/AFNetworking/UIKit+AFNetworking/AFImageDownloader.m" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../ios/CFGameSDK_Demo/Pods/AFNetworking/UIKit+AFNetworking/AFNetworkActivityIndicatorManager.h" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../ios/CFGameSDK_Demo/Pods/AFNetworking/UIKit+AFNetworking/AFNetworkActivityIndicatorManager.m" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../ios/CFGameSDK_Demo/Pods/AFNetworking/UIKit+AFNetworking/UIActivityIndicatorView+AFNetworking.h" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../ios/CFGameSDK_Demo/Pods/AFNetworking/UIKit+AFNetworking/UIActivityIndicatorView+AFNetworking.m" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../ios/CFGameSDK_Demo/Pods/AFNetworking/UIKit+AFNetworking/UIButton+AFNetworking.h" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../ios/CFGameSDK_Demo/Pods/AFNetworking/UIKit+AFNetworking/UIButton+AFNetworking.m" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../ios/CFGameSDK_Demo/Pods/AFNetworking/UIKit+AFNetworking/UIImageView+AFNetworking.h" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../ios/CFGameSDK_Demo/Pods/AFNetworking/UIKit+AFNetworking/UIImageView+AFNetworking.m" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../ios/CFGameSDK_Demo/Pods/AFNetworking/UIKit+AFNetworking/UIKit+AFNetworking.h" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../ios/CFGameSDK_Demo/Pods/AFNetworking/UIKit+AFNetworking/UIProgressView+AFNetworking.h" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../ios/CFGameSDK_Demo/Pods/AFNetworking/UIKit+AFNetworking/UIProgressView+AFNetworking.m" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../ios/CFGameSDK_Demo/Pods/AFNetworking/UIKit+AFNetworking/UIRefreshControl+AFNetworking.h" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../ios/CFGameSDK_Demo/Pods/AFNetworking/UIKit+AFNetworking/UIRefreshControl+AFNetworking.m" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../ios/CFGameSDK_Demo/Pods/AFNetworking/UIKit+AFNetworking/WKWebView+AFNetworking.h" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../ios/CFGameSDK_Demo/Pods/AFNetworking/UIKit+AFNetworking/WKWebView+AFNetworking.m" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../ios/CFGameSDK_Demo/Pods/Manifest.lock" beforeDir="false" afterPath="$PROJECT_DIR$/../ios/CFGameSDK_Demo/Pods/Manifest.lock" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../ios/CFGameSDK_Demo/Pods/Masonry/LICENSE" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../ios/CFGameSDK_Demo/Pods/Masonry/Masonry/MASCompositeConstraint.h" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../ios/CFGameSDK_Demo/Pods/Masonry/Masonry/MASCompositeConstraint.m" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../ios/CFGameSDK_Demo/Pods/Masonry/Masonry/MASConstraint+Private.h" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../ios/CFGameSDK_Demo/Pods/Masonry/Masonry/MASConstraint.h" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../ios/CFGameSDK_Demo/Pods/Masonry/Masonry/MASConstraint.m" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../ios/CFGameSDK_Demo/Pods/Masonry/Masonry/MASConstraintMaker.h" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../ios/CFGameSDK_Demo/Pods/Masonry/Masonry/MASConstraintMaker.m" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../ios/CFGameSDK_Demo/Pods/Masonry/Masonry/MASLayoutConstraint.h" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../ios/CFGameSDK_Demo/Pods/Masonry/Masonry/MASLayoutConstraint.m" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../ios/CFGameSDK_Demo/Pods/Masonry/Masonry/MASUtilities.h" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../ios/CFGameSDK_Demo/Pods/Masonry/Masonry/MASViewAttribute.h" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../ios/CFGameSDK_Demo/Pods/Masonry/Masonry/MASViewAttribute.m" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../ios/CFGameSDK_Demo/Pods/Masonry/Masonry/MASViewConstraint.h" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../ios/CFGameSDK_Demo/Pods/Masonry/Masonry/MASViewConstraint.m" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../ios/CFGameSDK_Demo/Pods/Masonry/Masonry/Masonry.h" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../ios/CFGameSDK_Demo/Pods/Masonry/Masonry/NSArray+MASAdditions.h" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../ios/CFGameSDK_Demo/Pods/Masonry/Masonry/NSArray+MASAdditions.m" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../ios/CFGameSDK_Demo/Pods/Masonry/Masonry/NSArray+MASShorthandAdditions.h" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../ios/CFGameSDK_Demo/Pods/Masonry/Masonry/NSLayoutConstraint+MASDebugAdditions.h" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../ios/CFGameSDK_Demo/Pods/Masonry/Masonry/NSLayoutConstraint+MASDebugAdditions.m" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../ios/CFGameSDK_Demo/Pods/Masonry/Masonry/View+MASAdditions.h" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../ios/CFGameSDK_Demo/Pods/Masonry/Masonry/View+MASAdditions.m" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../ios/CFGameSDK_Demo/Pods/Masonry/Masonry/View+MASShorthandAdditions.h" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../ios/CFGameSDK_Demo/Pods/Masonry/Masonry/ViewController+MASAdditions.h" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../ios/CFGameSDK_Demo/Pods/Masonry/Masonry/ViewController+MASAdditions.m" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../ios/CFGameSDK_Demo/Pods/Masonry/README.md" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../ios/CFGameSDK_Demo/Pods/Pods.xcodeproj/project.pbxproj" beforeDir="false" afterPath="$PROJECT_DIR$/../ios/CFGameSDK_Demo/Pods/Pods.xcodeproj/project.pbxproj" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../ios/CFGameSDK_Demo/Pods/Pods.xcodeproj/xcuserdata/yq_mac.xcuserdatad/xcschemes/xcschememanagement.plist" beforeDir="false" afterPath="$PROJECT_DIR$/../ios/CFGameSDK_Demo/Pods/Pods.xcodeproj/xcuserdata/yq_mac.xcuserdatad/xcschemes/xcschememanagement.plist" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../ios/CFGameSDK_Demo/Pods/SDWebImage/LICENSE" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../ios/CFGameSDK_Demo/Pods/SDWebImage/README.md" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../ios/CFGameSDK_Demo/Pods/SDWebImage/SDWebImage/Core/NSButton+WebCache.h" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../ios/CFGameSDK_Demo/Pods/SDWebImage/SDWebImage/Core/NSButton+WebCache.m" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../ios/CFGameSDK_Demo/Pods/SDWebImage/SDWebImage/Core/NSData+ImageContentType.h" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../ios/CFGameSDK_Demo/Pods/SDWebImage/SDWebImage/Core/NSData+ImageContentType.m" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../ios/CFGameSDK_Demo/Pods/SDWebImage/SDWebImage/Core/NSImage+Compatibility.h" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../ios/CFGameSDK_Demo/Pods/SDWebImage/SDWebImage/Core/NSImage+Compatibility.m" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../ios/CFGameSDK_Demo/Pods/SDWebImage/SDWebImage/Core/SDAnimatedImage.h" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../ios/CFGameSDK_Demo/Pods/SDWebImage/SDWebImage/Core/SDAnimatedImage.m" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../ios/CFGameSDK_Demo/Pods/SDWebImage/SDWebImage/Core/SDAnimatedImagePlayer.h" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../ios/CFGameSDK_Demo/Pods/SDWebImage/SDWebImage/Core/SDAnimatedImagePlayer.m" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../ios/CFGameSDK_Demo/Pods/SDWebImage/SDWebImage/Core/SDAnimatedImageRep.h" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../ios/CFGameSDK_Demo/Pods/SDWebImage/SDWebImage/Core/SDAnimatedImageRep.m" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../ios/CFGameSDK_Demo/Pods/SDWebImage/SDWebImage/Core/SDAnimatedImageView+WebCache.h" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../ios/CFGameSDK_Demo/Pods/SDWebImage/SDWebImage/Core/SDAnimatedImageView+WebCache.m" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../ios/CFGameSDK_Demo/Pods/SDWebImage/SDWebImage/Core/SDAnimatedImageView.h" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../ios/CFGameSDK_Demo/Pods/SDWebImage/SDWebImage/Core/SDAnimatedImageView.m" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../ios/CFGameSDK_Demo/Pods/SDWebImage/SDWebImage/Core/SDCallbackQueue.h" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../ios/CFGameSDK_Demo/Pods/SDWebImage/SDWebImage/Core/SDCallbackQueue.m" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../ios/CFGameSDK_Demo/Pods/SDWebImage/SDWebImage/Core/SDDiskCache.h" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../ios/CFGameSDK_Demo/Pods/SDWebImage/SDWebImage/Core/SDDiskCache.m" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../ios/CFGameSDK_Demo/Pods/SDWebImage/SDWebImage/Core/SDGraphicsImageRenderer.h" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../ios/CFGameSDK_Demo/Pods/SDWebImage/SDWebImage/Core/SDGraphicsImageRenderer.m" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../ios/CFGameSDK_Demo/Pods/SDWebImage/SDWebImage/Core/SDImageAPNGCoder.h" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../ios/CFGameSDK_Demo/Pods/SDWebImage/SDWebImage/Core/SDImageAPNGCoder.m" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../ios/CFGameSDK_Demo/Pods/SDWebImage/SDWebImage/Core/SDImageAWebPCoder.h" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../ios/CFGameSDK_Demo/Pods/SDWebImage/SDWebImage/Core/SDImageAWebPCoder.m" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../ios/CFGameSDK_Demo/Pods/SDWebImage/SDWebImage/Core/SDImageCache.h" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../ios/CFGameSDK_Demo/Pods/SDWebImage/SDWebImage/Core/SDImageCache.m" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../ios/CFGameSDK_Demo/Pods/SDWebImage/SDWebImage/Core/SDImageCacheConfig.h" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../ios/CFGameSDK_Demo/Pods/SDWebImage/SDWebImage/Core/SDImageCacheConfig.m" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../ios/CFGameSDK_Demo/Pods/SDWebImage/SDWebImage/Core/SDImageCacheDefine.h" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../ios/CFGameSDK_Demo/Pods/SDWebImage/SDWebImage/Core/SDImageCacheDefine.m" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../ios/CFGameSDK_Demo/Pods/SDWebImage/SDWebImage/Core/SDImageCachesManager.h" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../ios/CFGameSDK_Demo/Pods/SDWebImage/SDWebImage/Core/SDImageCachesManager.m" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../ios/CFGameSDK_Demo/Pods/SDWebImage/SDWebImage/Core/SDImageCoder.h" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../ios/CFGameSDK_Demo/Pods/SDWebImage/SDWebImage/Core/SDImageCoder.m" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../ios/CFGameSDK_Demo/Pods/SDWebImage/SDWebImage/Core/SDImageCoderHelper.h" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../ios/CFGameSDK_Demo/Pods/SDWebImage/SDWebImage/Core/SDImageCoderHelper.m" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../ios/CFGameSDK_Demo/Pods/SDWebImage/SDWebImage/Core/SDImageCodersManager.h" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../ios/CFGameSDK_Demo/Pods/SDWebImage/SDWebImage/Core/SDImageCodersManager.m" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../ios/CFGameSDK_Demo/Pods/SDWebImage/SDWebImage/Core/SDImageFrame.h" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../ios/CFGameSDK_Demo/Pods/SDWebImage/SDWebImage/Core/SDImageFrame.m" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../ios/CFGameSDK_Demo/Pods/SDWebImage/SDWebImage/Core/SDImageGIFCoder.h" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../ios/CFGameSDK_Demo/Pods/SDWebImage/SDWebImage/Core/SDImageGIFCoder.m" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../ios/CFGameSDK_Demo/Pods/SDWebImage/SDWebImage/Core/SDImageGraphics.h" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../ios/CFGameSDK_Demo/Pods/SDWebImage/SDWebImage/Core/SDImageGraphics.m" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../ios/CFGameSDK_Demo/Pods/SDWebImage/SDWebImage/Core/SDImageHEICCoder.h" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../ios/CFGameSDK_Demo/Pods/SDWebImage/SDWebImage/Core/SDImageHEICCoder.m" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../ios/CFGameSDK_Demo/Pods/SDWebImage/SDWebImage/Core/SDImageIOAnimatedCoder.h" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../ios/CFGameSDK_Demo/Pods/SDWebImage/SDWebImage/Core/SDImageIOAnimatedCoder.m" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../ios/CFGameSDK_Demo/Pods/SDWebImage/SDWebImage/Core/SDImageIOCoder.h" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../ios/CFGameSDK_Demo/Pods/SDWebImage/SDWebImage/Core/SDImageIOCoder.m" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../ios/CFGameSDK_Demo/Pods/SDWebImage/SDWebImage/Core/SDImageLoader.h" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../ios/CFGameSDK_Demo/Pods/SDWebImage/SDWebImage/Core/SDImageLoader.m" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../ios/CFGameSDK_Demo/Pods/SDWebImage/SDWebImage/Core/SDImageLoadersManager.h" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../ios/CFGameSDK_Demo/Pods/SDWebImage/SDWebImage/Core/SDImageLoadersManager.m" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../ios/CFGameSDK_Demo/Pods/SDWebImage/SDWebImage/Core/SDImageTransformer.h" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../ios/CFGameSDK_Demo/Pods/SDWebImage/SDWebImage/Core/SDImageTransformer.m" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../ios/CFGameSDK_Demo/Pods/SDWebImage/SDWebImage/Core/SDMemoryCache.h" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../ios/CFGameSDK_Demo/Pods/SDWebImage/SDWebImage/Core/SDMemoryCache.m" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../ios/CFGameSDK_Demo/Pods/SDWebImage/SDWebImage/Core/SDWebImageCacheKeyFilter.h" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../ios/CFGameSDK_Demo/Pods/SDWebImage/SDWebImage/Core/SDWebImageCacheKeyFilter.m" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../ios/CFGameSDK_Demo/Pods/SDWebImage/SDWebImage/Core/SDWebImageCacheSerializer.h" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../ios/CFGameSDK_Demo/Pods/SDWebImage/SDWebImage/Core/SDWebImageCacheSerializer.m" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../ios/CFGameSDK_Demo/Pods/SDWebImage/SDWebImage/Core/SDWebImageCompat.h" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../ios/CFGameSDK_Demo/Pods/SDWebImage/SDWebImage/Core/SDWebImageCompat.m" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../ios/CFGameSDK_Demo/Pods/SDWebImage/SDWebImage/Core/SDWebImageDefine.h" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../ios/CFGameSDK_Demo/Pods/SDWebImage/SDWebImage/Core/SDWebImageDefine.m" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../ios/CFGameSDK_Demo/Pods/SDWebImage/SDWebImage/Core/SDWebImageDownloader.h" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../ios/CFGameSDK_Demo/Pods/SDWebImage/SDWebImage/Core/SDWebImageDownloader.m" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../ios/CFGameSDK_Demo/Pods/SDWebImage/SDWebImage/Core/SDWebImageDownloaderConfig.h" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../ios/CFGameSDK_Demo/Pods/SDWebImage/SDWebImage/Core/SDWebImageDownloaderConfig.m" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../ios/CFGameSDK_Demo/Pods/SDWebImage/SDWebImage/Core/SDWebImageDownloaderDecryptor.h" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../ios/CFGameSDK_Demo/Pods/SDWebImage/SDWebImage/Core/SDWebImageDownloaderDecryptor.m" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../ios/CFGameSDK_Demo/Pods/SDWebImage/SDWebImage/Core/SDWebImageDownloaderOperation.h" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../ios/CFGameSDK_Demo/Pods/SDWebImage/SDWebImage/Core/SDWebImageDownloaderOperation.m" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../ios/CFGameSDK_Demo/Pods/SDWebImage/SDWebImage/Core/SDWebImageDownloaderRequestModifier.h" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../ios/CFGameSDK_Demo/Pods/SDWebImage/SDWebImage/Core/SDWebImageDownloaderRequestModifier.m" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../ios/CFGameSDK_Demo/Pods/SDWebImage/SDWebImage/Core/SDWebImageDownloaderResponseModifier.h" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../ios/CFGameSDK_Demo/Pods/SDWebImage/SDWebImage/Core/SDWebImageDownloaderResponseModifier.m" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../ios/CFGameSDK_Demo/Pods/SDWebImage/SDWebImage/Core/SDWebImageError.h" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../ios/CFGameSDK_Demo/Pods/SDWebImage/SDWebImage/Core/SDWebImageError.m" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../ios/CFGameSDK_Demo/Pods/SDWebImage/SDWebImage/Core/SDWebImageIndicator.h" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../ios/CFGameSDK_Demo/Pods/SDWebImage/SDWebImage/Core/SDWebImageIndicator.m" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../ios/CFGameSDK_Demo/Pods/SDWebImage/SDWebImage/Core/SDWebImageManager.h" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../ios/CFGameSDK_Demo/Pods/SDWebImage/SDWebImage/Core/SDWebImageManager.m" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../ios/CFGameSDK_Demo/Pods/SDWebImage/SDWebImage/Core/SDWebImageOperation.h" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../ios/CFGameSDK_Demo/Pods/SDWebImage/SDWebImage/Core/SDWebImageOperation.m" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../ios/CFGameSDK_Demo/Pods/SDWebImage/SDWebImage/Core/SDWebImageOptionsProcessor.h" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../ios/CFGameSDK_Demo/Pods/SDWebImage/SDWebImage/Core/SDWebImageOptionsProcessor.m" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../ios/CFGameSDK_Demo/Pods/SDWebImage/SDWebImage/Core/SDWebImagePrefetcher.h" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../ios/CFGameSDK_Demo/Pods/SDWebImage/SDWebImage/Core/SDWebImagePrefetcher.m" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../ios/CFGameSDK_Demo/Pods/SDWebImage/SDWebImage/Core/SDWebImageTransition.h" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../ios/CFGameSDK_Demo/Pods/SDWebImage/SDWebImage/Core/SDWebImageTransition.m" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../ios/CFGameSDK_Demo/Pods/SDWebImage/SDWebImage/Core/UIButton+WebCache.h" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../ios/CFGameSDK_Demo/Pods/SDWebImage/SDWebImage/Core/UIButton+WebCache.m" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../ios/CFGameSDK_Demo/Pods/SDWebImage/SDWebImage/Core/UIImage+ExtendedCacheData.h" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../ios/CFGameSDK_Demo/Pods/SDWebImage/SDWebImage/Core/UIImage+ExtendedCacheData.m" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../ios/CFGameSDK_Demo/Pods/SDWebImage/SDWebImage/Core/UIImage+ForceDecode.h" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../ios/CFGameSDK_Demo/Pods/SDWebImage/SDWebImage/Core/UIImage+ForceDecode.m" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../ios/CFGameSDK_Demo/Pods/SDWebImage/SDWebImage/Core/UIImage+GIF.h" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../ios/CFGameSDK_Demo/Pods/SDWebImage/SDWebImage/Core/UIImage+GIF.m" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../ios/CFGameSDK_Demo/Pods/SDWebImage/SDWebImage/Core/UIImage+MemoryCacheCost.h" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../ios/CFGameSDK_Demo/Pods/SDWebImage/SDWebImage/Core/UIImage+MemoryCacheCost.m" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../ios/CFGameSDK_Demo/Pods/SDWebImage/SDWebImage/Core/UIImage+Metadata.h" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../ios/CFGameSDK_Demo/Pods/SDWebImage/SDWebImage/Core/UIImage+Metadata.m" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../ios/CFGameSDK_Demo/Pods/SDWebImage/SDWebImage/Core/UIImage+MultiFormat.h" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../ios/CFGameSDK_Demo/Pods/SDWebImage/SDWebImage/Core/UIImage+MultiFormat.m" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../ios/CFGameSDK_Demo/Pods/SDWebImage/SDWebImage/Core/UIImage+Transform.h" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../ios/CFGameSDK_Demo/Pods/SDWebImage/SDWebImage/Core/UIImage+Transform.m" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../ios/CFGameSDK_Demo/Pods/SDWebImage/SDWebImage/Core/UIImageView+HighlightedWebCache.h" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../ios/CFGameSDK_Demo/Pods/SDWebImage/SDWebImage/Core/UIImageView+HighlightedWebCache.m" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../ios/CFGameSDK_Demo/Pods/SDWebImage/SDWebImage/Core/UIImageView+WebCache.h" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../ios/CFGameSDK_Demo/Pods/SDWebImage/SDWebImage/Core/UIImageView+WebCache.m" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../ios/CFGameSDK_Demo/Pods/SDWebImage/SDWebImage/Core/UIView+WebCache.h" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../ios/CFGameSDK_Demo/Pods/SDWebImage/SDWebImage/Core/UIView+WebCache.m" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../ios/CFGameSDK_Demo/Pods/SDWebImage/SDWebImage/Core/UIView+WebCacheOperation.h" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../ios/CFGameSDK_Demo/Pods/SDWebImage/SDWebImage/Core/UIView+WebCacheOperation.m" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../ios/CFGameSDK_Demo/Pods/SDWebImage/SDWebImage/Core/UIView+WebCacheState.h" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../ios/CFGameSDK_Demo/Pods/SDWebImage/SDWebImage/Core/UIView+WebCacheState.m" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../ios/CFGameSDK_Demo/Pods/SDWebImage/SDWebImage/Private/NSBezierPath+SDRoundedCorners.h" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../ios/CFGameSDK_Demo/Pods/SDWebImage/SDWebImage/Private/NSBezierPath+SDRoundedCorners.m" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../ios/CFGameSDK_Demo/Pods/SDWebImage/SDWebImage/Private/SDAssociatedObject.h" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../ios/CFGameSDK_Demo/Pods/SDWebImage/SDWebImage/Private/SDAssociatedObject.m" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../ios/CFGameSDK_Demo/Pods/SDWebImage/SDWebImage/Private/SDAsyncBlockOperation.h" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../ios/CFGameSDK_Demo/Pods/SDWebImage/SDWebImage/Private/SDAsyncBlockOperation.m" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../ios/CFGameSDK_Demo/Pods/SDWebImage/SDWebImage/Private/SDDeviceHelper.h" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../ios/CFGameSDK_Demo/Pods/SDWebImage/SDWebImage/Private/SDDeviceHelper.m" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../ios/CFGameSDK_Demo/Pods/SDWebImage/SDWebImage/Private/SDDisplayLink.h" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../ios/CFGameSDK_Demo/Pods/SDWebImage/SDWebImage/Private/SDDisplayLink.m" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../ios/CFGameSDK_Demo/Pods/SDWebImage/SDWebImage/Private/SDFileAttributeHelper.h" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../ios/CFGameSDK_Demo/Pods/SDWebImage/SDWebImage/Private/SDFileAttributeHelper.m" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../ios/CFGameSDK_Demo/Pods/SDWebImage/SDWebImage/Private/SDImageAssetManager.h" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../ios/CFGameSDK_Demo/Pods/SDWebImage/SDWebImage/Private/SDImageAssetManager.m" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../ios/CFGameSDK_Demo/Pods/SDWebImage/SDWebImage/Private/SDImageCachesManagerOperation.h" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../ios/CFGameSDK_Demo/Pods/SDWebImage/SDWebImage/Private/SDImageCachesManagerOperation.m" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../ios/CFGameSDK_Demo/Pods/SDWebImage/SDWebImage/Private/SDImageFramePool.h" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../ios/CFGameSDK_Demo/Pods/SDWebImage/SDWebImage/Private/SDImageFramePool.m" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../ios/CFGameSDK_Demo/Pods/SDWebImage/SDWebImage/Private/SDImageIOAnimatedCoderInternal.h" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../ios/CFGameSDK_Demo/Pods/SDWebImage/SDWebImage/Private/SDInternalMacros.h" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../ios/CFGameSDK_Demo/Pods/SDWebImage/SDWebImage/Private/SDInternalMacros.m" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../ios/CFGameSDK_Demo/Pods/SDWebImage/SDWebImage/Private/SDWeakProxy.h" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../ios/CFGameSDK_Demo/Pods/SDWebImage/SDWebImage/Private/SDWeakProxy.m" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../ios/CFGameSDK_Demo/Pods/SDWebImage/SDWebImage/Private/SDWebImageTransitionInternal.h" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../ios/CFGameSDK_Demo/Pods/SDWebImage/SDWebImage/Private/SDmetamacros.h" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../ios/CFGameSDK_Demo/Pods/SDWebImage/SDWebImage/Private/UIColor+SDHexString.h" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../ios/CFGameSDK_Demo/Pods/SDWebImage/SDWebImage/Private/UIColor+SDHexString.m" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../ios/CFGameSDK_Demo/Pods/SDWebImage/WebImage/PrivacyInfo.xcprivacy" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../ios/CFGameSDK_Demo/Pods/SDWebImage/WebImage/SDWebImage.h" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../ios/CFGameSDK_Demo/Pods/SSZipArchive/LICENSE.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../ios/CFGameSDK_Demo/Pods/SSZipArchive/README.md" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../ios/CFGameSDK_Demo/Pods/SSZipArchive/SSZipArchive/SSZipArchive.h" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../ios/CFGameSDK_Demo/Pods/SSZipArchive/SSZipArchive/SSZipArchive.m" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../ios/CFGameSDK_Demo/Pods/SSZipArchive/SSZipArchive/SSZipCommon.h" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../ios/CFGameSDK_Demo/Pods/SSZipArchive/SSZipArchive/ZipArchive.h" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../ios/CFGameSDK_Demo/Pods/SSZipArchive/SSZipArchive/minizip/aes/aes.h" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../ios/CFGameSDK_Demo/Pods/SSZipArchive/SSZipArchive/minizip/aes/aes_ni.c" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../ios/CFGameSDK_Demo/Pods/SSZipArchive/SSZipArchive/minizip/aes/aes_ni.h" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../ios/CFGameSDK_Demo/Pods/SSZipArchive/SSZipArchive/minizip/aes/aescrypt.c" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../ios/CFGameSDK_Demo/Pods/SSZipArchive/SSZipArchive/minizip/aes/aeskey.c" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../ios/CFGameSDK_Demo/Pods/SSZipArchive/SSZipArchive/minizip/aes/aesopt.h" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../ios/CFGameSDK_Demo/Pods/SSZipArchive/SSZipArchive/minizip/aes/aestab.c" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../ios/CFGameSDK_Demo/Pods/SSZipArchive/SSZipArchive/minizip/aes/aestab.h" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../ios/CFGameSDK_Demo/Pods/SSZipArchive/SSZipArchive/minizip/aes/brg_endian.h" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../ios/CFGameSDK_Demo/Pods/SSZipArchive/SSZipArchive/minizip/aes/brg_types.h" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../ios/CFGameSDK_Demo/Pods/SSZipArchive/SSZipArchive/minizip/aes/fileenc.c" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../ios/CFGameSDK_Demo/Pods/SSZipArchive/SSZipArchive/minizip/aes/fileenc.h" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../ios/CFGameSDK_Demo/Pods/SSZipArchive/SSZipArchive/minizip/aes/hmac.c" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../ios/CFGameSDK_Demo/Pods/SSZipArchive/SSZipArchive/minizip/aes/hmac.h" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../ios/CFGameSDK_Demo/Pods/SSZipArchive/SSZipArchive/minizip/aes/prng.c" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../ios/CFGameSDK_Demo/Pods/SSZipArchive/SSZipArchive/minizip/aes/prng.h" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../ios/CFGameSDK_Demo/Pods/SSZipArchive/SSZipArchive/minizip/aes/pwd2key.c" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../ios/CFGameSDK_Demo/Pods/SSZipArchive/SSZipArchive/minizip/aes/pwd2key.h" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../ios/CFGameSDK_Demo/Pods/SSZipArchive/SSZipArchive/minizip/aes/sha1.c" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../ios/CFGameSDK_Demo/Pods/SSZipArchive/SSZipArchive/minizip/aes/sha1.h" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../ios/CFGameSDK_Demo/Pods/SSZipArchive/SSZipArchive/minizip/crypt.c" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../ios/CFGameSDK_Demo/Pods/SSZipArchive/SSZipArchive/minizip/crypt.h" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../ios/CFGameSDK_Demo/Pods/SSZipArchive/SSZipArchive/minizip/ioapi.c" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../ios/CFGameSDK_Demo/Pods/SSZipArchive/SSZipArchive/minizip/ioapi.h" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../ios/CFGameSDK_Demo/Pods/SSZipArchive/SSZipArchive/minizip/ioapi_buf.c" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../ios/CFGameSDK_Demo/Pods/SSZipArchive/SSZipArchive/minizip/ioapi_buf.h" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../ios/CFGameSDK_Demo/Pods/SSZipArchive/SSZipArchive/minizip/ioapi_mem.c" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../ios/CFGameSDK_Demo/Pods/SSZipArchive/SSZipArchive/minizip/ioapi_mem.h" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../ios/CFGameSDK_Demo/Pods/SSZipArchive/SSZipArchive/minizip/minishared.c" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../ios/CFGameSDK_Demo/Pods/SSZipArchive/SSZipArchive/minizip/minishared.h" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../ios/CFGameSDK_Demo/Pods/SSZipArchive/SSZipArchive/minizip/unzip.c" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../ios/CFGameSDK_Demo/Pods/SSZipArchive/SSZipArchive/minizip/unzip.h" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../ios/CFGameSDK_Demo/Pods/SSZipArchive/SSZipArchive/minizip/zip.c" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../ios/CFGameSDK_Demo/Pods/SSZipArchive/SSZipArchive/minizip/zip.h" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../ios/CFGameSDK_Demo/Pods/Target Support Files/AFNetworking/AFNetworking-Info.plist" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../ios/CFGameSDK_Demo/Pods/Target Support Files/AFNetworking/AFNetworking-dummy.m" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../ios/CFGameSDK_Demo/Pods/Target Support Files/AFNetworking/AFNetworking-prefix.pch" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../ios/CFGameSDK_Demo/Pods/Target Support Files/AFNetworking/AFNetworking-umbrella.h" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../ios/CFGameSDK_Demo/Pods/Target Support Files/AFNetworking/AFNetworking.debug.xcconfig" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../ios/CFGameSDK_Demo/Pods/Target Support Files/AFNetworking/AFNetworking.modulemap" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../ios/CFGameSDK_Demo/Pods/Target Support Files/AFNetworking/AFNetworking.release.xcconfig" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../ios/CFGameSDK_Demo/Pods/Target Support Files/Masonry/Masonry-Info.plist" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../ios/CFGameSDK_Demo/Pods/Target Support Files/Masonry/Masonry-dummy.m" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../ios/CFGameSDK_Demo/Pods/Target Support Files/Masonry/Masonry-prefix.pch" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../ios/CFGameSDK_Demo/Pods/Target Support Files/Masonry/Masonry-umbrella.h" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../ios/CFGameSDK_Demo/Pods/Target Support Files/Masonry/Masonry.debug.xcconfig" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../ios/CFGameSDK_Demo/Pods/Target Support Files/Masonry/Masonry.modulemap" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../ios/CFGameSDK_Demo/Pods/Target Support Files/Masonry/Masonry.release.xcconfig" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../ios/CFGameSDK_Demo/Pods/Target Support Files/Pods-CFGameSDK_Demo/Pods-CFGameSDK_Demo-acknowledgements.markdown" beforeDir="false" afterPath="$PROJECT_DIR$/../ios/CFGameSDK_Demo/Pods/Target Support Files/Pods-CFGameSDK_Demo/Pods-CFGameSDK_Demo-acknowledgements.markdown" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../ios/CFGameSDK_Demo/Pods/Target Support Files/Pods-CFGameSDK_Demo/Pods-CFGameSDK_Demo-acknowledgements.plist" beforeDir="false" afterPath="$PROJECT_DIR$/../ios/CFGameSDK_Demo/Pods/Target Support Files/Pods-CFGameSDK_Demo/Pods-CFGameSDK_Demo-acknowledgements.plist" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../ios/CFGameSDK_Demo/Pods/Target Support Files/Pods-CFGameSDK_Demo/Pods-CFGameSDK_Demo-frameworks-Debug-input-files.xcfilelist" beforeDir="false" afterPath="$PROJECT_DIR$/../ios/CFGameSDK_Demo/Pods/Target Support Files/Pods-CFGameSDK_Demo/Pods-CFGameSDK_Demo-frameworks-Debug-input-files.xcfilelist" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../ios/CFGameSDK_Demo/Pods/Target Support Files/Pods-CFGameSDK_Demo/Pods-CFGameSDK_Demo-frameworks-Debug-output-files.xcfilelist" beforeDir="false" afterPath="$PROJECT_DIR$/../ios/CFGameSDK_Demo/Pods/Target Support Files/Pods-CFGameSDK_Demo/Pods-CFGameSDK_Demo-frameworks-Debug-output-files.xcfilelist" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../ios/CFGameSDK_Demo/Pods/Target Support Files/Pods-CFGameSDK_Demo/Pods-CFGameSDK_Demo-frameworks-Release-input-files.xcfilelist" beforeDir="false" afterPath="$PROJECT_DIR$/../ios/CFGameSDK_Demo/Pods/Target Support Files/Pods-CFGameSDK_Demo/Pods-CFGameSDK_Demo-frameworks-Release-input-files.xcfilelist" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../ios/CFGameSDK_Demo/Pods/Target Support Files/Pods-CFGameSDK_Demo/Pods-CFGameSDK_Demo-frameworks-Release-output-files.xcfilelist" beforeDir="false" afterPath="$PROJECT_DIR$/../ios/CFGameSDK_Demo/Pods/Target Support Files/Pods-CFGameSDK_Demo/Pods-CFGameSDK_Demo-frameworks-Release-output-files.xcfilelist" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../ios/CFGameSDK_Demo/Pods/Target Support Files/Pods-CFGameSDK_Demo/Pods-CFGameSDK_Demo-frameworks.sh" beforeDir="false" afterPath="$PROJECT_DIR$/../ios/CFGameSDK_Demo/Pods/Target Support Files/Pods-CFGameSDK_Demo/Pods-CFGameSDK_Demo-frameworks.sh" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../ios/CFGameSDK_Demo/Pods/Target Support Files/Pods-CFGameSDK_Demo/Pods-CFGameSDK_Demo.debug.xcconfig" beforeDir="false" afterPath="$PROJECT_DIR$/../ios/CFGameSDK_Demo/Pods/Target Support Files/Pods-CFGameSDK_Demo/Pods-CFGameSDK_Demo.debug.xcconfig" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../ios/CFGameSDK_Demo/Pods/Target Support Files/Pods-CFGameSDK_Demo/Pods-CFGameSDK_Demo.release.xcconfig" beforeDir="false" afterPath="$PROJECT_DIR$/../ios/CFGameSDK_Demo/Pods/Target Support Files/Pods-CFGameSDK_Demo/Pods-CFGameSDK_Demo.release.xcconfig" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../ios/CFGameSDK_Demo/Pods/Target Support Files/SDWebImage/ResourceBundle-SDWebImage-SDWebImage-Info.plist" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../ios/CFGameSDK_Demo/Pods/Target Support Files/SDWebImage/SDWebImage-Info.plist" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../ios/CFGameSDK_Demo/Pods/Target Support Files/SDWebImage/SDWebImage-dummy.m" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../ios/CFGameSDK_Demo/Pods/Target Support Files/SDWebImage/SDWebImage-prefix.pch" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../ios/CFGameSDK_Demo/Pods/Target Support Files/SDWebImage/SDWebImage-umbrella.h" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../ios/CFGameSDK_Demo/Pods/Target Support Files/SDWebImage/SDWebImage.debug.xcconfig" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../ios/CFGameSDK_Demo/Pods/Target Support Files/SDWebImage/SDWebImage.modulemap" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../ios/CFGameSDK_Demo/Pods/Target Support Files/SDWebImage/SDWebImage.release.xcconfig" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../ios/CFGameSDK_Demo/Pods/Target Support Files/SSZipArchive/SSZipArchive-Info.plist" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../ios/CFGameSDK_Demo/Pods/Target Support Files/SSZipArchive/SSZipArchive-dummy.m" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../ios/CFGameSDK_Demo/Pods/Target Support Files/SSZipArchive/SSZipArchive-prefix.pch" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../ios/CFGameSDK_Demo/Pods/Target Support Files/SSZipArchive/SSZipArchive-umbrella.h" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../ios/CFGameSDK_Demo/Pods/Target Support Files/SSZipArchive/SSZipArchive.debug.xcconfig" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../ios/CFGameSDK_Demo/Pods/Target Support Files/SSZipArchive/SSZipArchive.modulemap" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../ios/CFGameSDK_Demo/Pods/Target Support Files/SSZipArchive/SSZipArchive.release.xcconfig" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../ios/CFGameSDK_Demo/Pods/Target Support Files/YYModel/YYModel-Info.plist" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../ios/CFGameSDK_Demo/Pods/Target Support Files/YYModel/YYModel-dummy.m" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../ios/CFGameSDK_Demo/Pods/Target Support Files/YYModel/YYModel-prefix.pch" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../ios/CFGameSDK_Demo/Pods/Target Support Files/YYModel/YYModel-umbrella.h" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../ios/CFGameSDK_Demo/Pods/Target Support Files/YYModel/YYModel.debug.xcconfig" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../ios/CFGameSDK_Demo/Pods/Target Support Files/YYModel/YYModel.modulemap" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../ios/CFGameSDK_Demo/Pods/Target Support Files/YYModel/YYModel.release.xcconfig" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../ios/CFGameSDK_Demo/Pods/YYModel/LICENSE" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../ios/CFGameSDK_Demo/Pods/YYModel/README.md" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../ios/CFGameSDK_Demo/Pods/YYModel/YYModel/NSObject+YYModel.h" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../ios/CFGameSDK_Demo/Pods/YYModel/YYModel/NSObject+YYModel.m" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../ios/CFGameSDK_Demo/Pods/YYModel/YYModel/YYClassInfo.h" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../ios/CFGameSDK_Demo/Pods/YYModel/YYModel/YYClassInfo.m" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../ios/CFGameSDK_Demo/Pods/YYModel/YYModel/YYModel.h" beforeDir="false" />
+    </list>
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="ClangdSettings">
+    <option name="formatViaClangd" value="false" />
+  </component>
+  <component name="ExecutionTargetManager" SELECTED_TARGET="device_and_snapshot_combo_box_target[DeviceId(pluginId=PhysicalDevice, isTemplate=false, identifier=serial=1a392334)]" />
+  <component name="ExternalProjectsData">
+    <projectState path="$PROJECT_DIR$">
+      <ProjectState />
+    </projectState>
+  </component>
+  <component name="ExternalProjectsManager">
+    <system id="GRADLE">
+      <state>
+        <task path="$PROJECT_DIR$/app">
+          <activation />
+        </task>
+        <projects_view>
+          <tree_state>
+            <expand>
+              <path>
+                <item name="" type="6a2764b6:ExternalProjectsStructure$RootNode" />
+                <item name="CFGameSDKDemo" type="f1a62948:ProjectNode" />
+              </path>
+              <path>
+                <item name="" type="6a2764b6:ExternalProjectsStructure$RootNode" />
+                <item name="CFGameSDKDemo" type="f1a62948:ProjectNode" />
+                <item name="app" type="2d1252cf:ModuleNode" />
+              </path>
+              <path>
+                <item name="" type="6a2764b6:ExternalProjectsStructure$RootNode" />
+                <item name="CFGameSDKDemo" type="f1a62948:ProjectNode" />
+                <item name="app" type="2d1252cf:ModuleNode" />
+                <item name="Tasks" type="e4a08cd1:TasksNode" />
+              </path>
+              <path>
+                <item name="" type="6a2764b6:ExternalProjectsStructure$RootNode" />
+                <item name="CFGameSDKDemo" type="f1a62948:ProjectNode" />
+                <item name="app" type="2d1252cf:ModuleNode" />
+                <item name="Tasks" type="e4a08cd1:TasksNode" />
+                <item name="other" type="c8890929:TasksNode$1" />
+              </path>
+            </expand>
+            <select />
+          </tree_state>
+        </projects_view>
+      </state>
+    </system>
+  </component>
+  <component name="GenerateSignedApkSettings">
+    <option name="KEY_STORE_PATH" value="$USER_HOME$/Desktop/GitHubDemo密钥" />
+    <option name="KEY_ALIAS" value="key0" />
+    <option name="REMEMBER_PASSWORDS" value="true" />
+    <option name="BUILD_TARGET_KEY" value="apk" />
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$/.." />
+  </component>
+  <component name="ProjectColorInfo">{
+  &quot;associatedIndex&quot;: 3
+}</component>
+  <component name="ProjectId" id="2qN2Hu3cYQVbKlkEDZoOIUlV2Cx" />
+  <component name="ProjectViewState">
+    <option name="hideEmptyMiddlePackages" value="true" />
+    <option name="showLibraryContents" value="true" />
+  </component>
+  <component name="PropertiesComponent"><![CDATA[{
+  "keyToString": {
+    "Android App.app.executor": "Run",
+    "ApkExportedModule": "CFGameSDKDemo.app",
+    "BundleExportedModule": "CFGameSDKDemo.app",
+    "ExportApk.ApkPathForCFGameSDKDemo.app": "/Users/yq_mac/github/mainland/IntermodalGameDemo_mainland/android/app",
+    "Gradle.Download Sources.executor": "Run",
+    "RunOnceActivity.ShowReadmeOnStart": "true",
+    "RunOnceActivity.cidr.known.project.marker": "true",
+    "RunOnceActivity.git.unshallow": "true",
+    "RunOnceActivity.readMode.enableVisualFormatting": "true",
+    "cf.first.check.clang-format": "false",
+    "cidr.known.project.marker": "true",
+    "dart.analysis.tool.window.visible": "false",
+    "git-widget-placeholder": "main",
+    "kotlin-language-version-configured": "true",
+    "show.migrate.to.gradle.popup": "false"
+  },
+  "keyToStringList": {
+    "ExportApk.BuildVariants": [
+      "release"
+    ]
+  }
+}]]></component>
+  <component name="RecentsManager">
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$/app/libs" />
+    </key>
+  </component>
+  <component name="RunManager">
+    <configuration name="app" type="AndroidRunConfigurationType" factoryName="Android App" activateToolWindowBeforeRun="false">
+      <module name="CFGameSDKDemo.app" />
+      <option name="ANDROID_RUN_CONFIGURATION_SCHEMA_VERSION" value="1" />
+      <option name="DEPLOY" value="true" />
+      <option name="DEPLOY_APK_FROM_BUNDLE" value="false" />
+      <option name="DEPLOY_AS_INSTANT" value="false" />
+      <option name="ARTIFACT_NAME" value="" />
+      <option name="PM_INSTALL_OPTIONS" value="" />
+      <option name="ALL_USERS" value="false" />
+      <option name="ALWAYS_INSTALL_WITH_PM" value="false" />
+      <option name="ALLOW_ASSUME_VERIFIED" value="false" />
+      <option name="CLEAR_APP_STORAGE" value="false" />
+      <option name="DYNAMIC_FEATURES_DISABLED_LIST" value="" />
+      <option name="ACTIVITY_EXTRA_FLAGS" value="" />
+      <option name="MODE" value="default_activity" />
+      <option name="RESTORE_ENABLED" value="false" />
+      <option name="RESTORE_FILE" value="" />
+      <option name="RESTORE_FRESH_INSTALL_ONLY" value="false" />
+      <option name="CLEAR_LOGCAT" value="false" />
+      <option name="SHOW_LOGCAT_AUTOMATICALLY" value="false" />
+      <option name="TARGET_SELECTION_MODE" value="DEVICE_AND_SNAPSHOT_COMBO_BOX" />
+      <option name="SELECTED_CLOUD_MATRIX_CONFIGURATION_ID" value="-1" />
+      <option name="SELECTED_CLOUD_MATRIX_PROJECT_ID" value="" />
+      <option name="DEBUGGER_TYPE" value="Auto" />
+      <Auto>
+        <option name="USE_JAVA_AWARE_DEBUGGER" value="false" />
+        <option name="SHOW_STATIC_VARS" value="true" />
+        <option name="WORKING_DIR" value="" />
+        <option name="TARGET_LOGGING_CHANNELS" value="lldb process:gdb-remote packets" />
+        <option name="SHOW_OPTIMIZED_WARNING" value="true" />
+        <option name="ATTACH_ON_WAIT_FOR_DEBUGGER" value="false" />
+        <option name="DEBUG_SANDBOX_SDK" value="false" />
+      </Auto>
+      <Hybrid>
+        <option name="USE_JAVA_AWARE_DEBUGGER" value="false" />
+        <option name="SHOW_STATIC_VARS" value="true" />
+        <option name="WORKING_DIR" value="" />
+        <option name="TARGET_LOGGING_CHANNELS" value="lldb process:gdb-remote packets" />
+        <option name="SHOW_OPTIMIZED_WARNING" value="true" />
+        <option name="ATTACH_ON_WAIT_FOR_DEBUGGER" value="false" />
+        <option name="DEBUG_SANDBOX_SDK" value="false" />
+      </Hybrid>
+      <Java>
+        <option name="ATTACH_ON_WAIT_FOR_DEBUGGER" value="false" />
+        <option name="DEBUG_SANDBOX_SDK" value="false" />
+      </Java>
+      <Native>
+        <option name="USE_JAVA_AWARE_DEBUGGER" value="false" />
+        <option name="SHOW_STATIC_VARS" value="true" />
+        <option name="WORKING_DIR" value="" />
+        <option name="TARGET_LOGGING_CHANNELS" value="lldb process:gdb-remote packets" />
+        <option name="SHOW_OPTIMIZED_WARNING" value="true" />
+        <option name="ATTACH_ON_WAIT_FOR_DEBUGGER" value="false" />
+        <option name="DEBUG_SANDBOX_SDK" value="false" />
+      </Native>
+      <Profilers>
+        <option name="ADVANCED_PROFILING_ENABLED" value="false" />
+        <option name="STARTUP_PROFILING_ENABLED" value="false" />
+        <option name="STARTUP_CPU_PROFILING_ENABLED" value="false" />
+        <option name="STARTUP_CPU_PROFILING_CONFIGURATION_NAME" value="Java/Kotlin Method Sample (legacy)" />
+        <option name="STARTUP_NATIVE_MEMORY_PROFILING_ENABLED" value="false" />
+        <option name="NATIVE_MEMORY_SAMPLE_RATE_BYTES" value="2048" />
+      </Profilers>
+      <option name="DEEP_LINK" value="" />
+      <option name="ACTIVITY" value="" />
+      <option name="ACTIVITY_CLASS" value="" />
+      <option name="SEARCH_ACTIVITY_IN_GLOBAL_SCOPE" value="false" />
+      <option name="SKIP_ACTIVITY_VALIDATION" value="false" />
+      <method v="2">
+        <option name="Android.Gradle.BeforeRunTask" enabled="true" />
+      </method>
+    </configuration>
+    <configuration default="true" type="JetRunConfigurationType">
+      <module name="android" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration default="true" type="KotlinStandaloneScriptRunConfigurationType">
+      <module name="android" />
+      <option name="filePath" />
+      <method v="2" />
+    </configuration>
+  </component>
+  <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
+  <component name="SwiftWorkspaceSettings">
+    <option name="detectedToolchain" value="true" />
+  </component>
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="478e08a6-a216-4b5d-b413-361f7299313f" name="Changes" comment="" />
+      <created>1734488627381</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1734488627381</updated>
+    </task>
+    <servers />
+  </component>
+  <component name="play_dynamic_filters_status">
+    <option name="appIdToCheckInfo">
+      <map>
+        <entry key="com.cftech.gamesdk.demo">
+          <value>
+            <CheckInfo lastCheckTimestamp="1793601680960" />
+          </value>
+        </entry>
+        <entry />
+        <entry key="com.cftech.gamesdk.demo.test">
+          <value>
+            <CheckInfo lastCheckTimestamp="1793601680960" />
+          </value>
+        </entry>
+      </map>
+    </option>
+  </component>
+</project>
